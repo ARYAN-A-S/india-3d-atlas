@@ -12,25 +12,41 @@ interface DetailPanelProps {
   featureType: string;
   onClose: () => void;
   onSelectFeatureByName?: (name: string, type: string) => void;
+  isMinimized?: boolean;
+  onToggleMinimize?: () => void;
 }
 
 export const DetailPanel: React.FC<DetailPanelProps> = ({
   selectedFeature,
   featureType,
   onClose,
-  onSelectFeatureByName
+  onSelectFeatureByName,
+  isMinimized: isMinimizedProp,
+  onToggleMinimize
 }) => {
   // Default to 'all' so clicking ANY state immediately reveals its complete geography, exam facts, economy, history, and environment
   const [activeTab, setActiveTab] = useState<'all' | 'geo' | 'exam' | 'economy' | 'history' | 'environment' | 'admin'>('all');
-  const [isMinimized, setIsMinimized] = useState<boolean>(false);
+  const [localMinimized, setLocalMinimized] = useState<boolean>(false);
+
+  const isMinimized = isMinimizedProp !== undefined ? isMinimizedProp : localMinimized;
+  const toggleMin = () => {
+    if (onToggleMinimize) {
+      onToggleMinimize();
+    } else {
+      setLocalMinimized(prev => !prev);
+    }
+  };
 
   if (!selectedFeature) return null;
 
   // Mobile Minimized Peek Bar
   if (isMinimized) {
     return (
-      <div className="bg-slate-900/95 border border-slate-700/80 rounded-2xl mx-2 mb-2 p-3 shadow-2xl backdrop-blur-md flex items-center justify-between gap-3 text-slate-100 font-sans">
-        <div className="flex-1 min-w-0 cursor-pointer" onClick={() => setIsMinimized(false)}>
+      <div 
+        className="bg-slate-900/95 border border-slate-700/80 rounded-2xl p-3 shadow-2xl backdrop-blur-md flex items-center justify-between gap-3 text-slate-100 font-sans select-none"
+        onTouchStart={(e) => e.stopPropagation()}
+      >
+        <div className="flex-1 min-w-0 cursor-pointer" onClick={toggleMin}>
           <div className="flex items-center gap-1.5">
             <span className="px-1.5 py-0.5 rounded text-[10px] font-bold uppercase bg-amber-500/20 text-amber-400 border border-amber-500/30 shrink-0">
               {featureType.toUpperCase()}
@@ -45,7 +61,7 @@ export const DetailPanel: React.FC<DetailPanelProps> = ({
         </div>
         <div className="flex items-center gap-1.5 shrink-0">
           <button
-            onClick={() => setIsMinimized(false)}
+            onClick={toggleMin}
             className="px-2.5 py-1.5 bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs rounded-xl flex items-center gap-1 shadow"
             title="Expand Full Details"
           >
@@ -70,7 +86,12 @@ export const DetailPanel: React.FC<DetailPanelProps> = ({
     const isAll = activeTab === 'all';
 
     return (
-      <div className="h-full flex flex-col bg-slate-900 border-l border-slate-800 text-slate-100 shadow-2xl overflow-hidden font-sans">
+      <div 
+        className="h-full w-full flex flex-col bg-slate-900 border-l border-slate-800 text-slate-100 shadow-2xl overflow-hidden font-sans select-text"
+        onTouchStart={(e) => e.stopPropagation()}
+        onTouchMove={(e) => e.stopPropagation()}
+        onTouchEnd={(e) => e.stopPropagation()}
+      >
         {/* Header */}
         <div className="p-4 sm:p-5 border-b border-slate-800 bg-slate-950/70 backdrop-blur-md flex items-start justify-between relative shrink-0">
           <div>
@@ -97,7 +118,7 @@ export const DetailPanel: React.FC<DetailPanelProps> = ({
           </div>
           <div className="flex items-center gap-1 shrink-0">
             <button 
-              onClick={() => setIsMinimized(true)}
+              onClick={toggleMin}
               className="p-1.5 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800 transition-colors md:hidden"
               title="Minimize to Peek Map"
             >
@@ -114,7 +135,10 @@ export const DetailPanel: React.FC<DetailPanelProps> = ({
         </div>
 
         {/* Quick Section Tabs Filter */}
-        <div className="flex border-b border-slate-800 bg-slate-950/40 overflow-x-auto scrollbar-none text-xs font-semibold px-2 shrink-0">
+        <div 
+          className="flex border-b border-slate-800 bg-slate-950/40 overflow-x-auto scrollbar-none text-xs font-semibold px-2 shrink-0 touch-pan-x"
+          style={{ WebkitOverflowScrolling: 'touch', touchAction: 'pan-x' }}
+        >
           {[
             { id: 'all', label: '🌟 All Details' },
             { id: 'exam', label: '🏆 Exam Facts' },
@@ -139,7 +163,10 @@ export const DetailPanel: React.FC<DetailPanelProps> = ({
         </div>
 
         {/* Unified Scrollable Content Body */}
-        <div className="flex-1 overflow-y-auto p-5 space-y-7 text-sm text-slate-300">
+        <div 
+          className="flex-1 overflow-y-auto p-4 sm:p-5 space-y-7 text-sm text-slate-300 touch-pan-y overscroll-contain select-text"
+          style={{ WebkitOverflowScrolling: 'touch', touchAction: 'pan-y' }}
+        >
           
           {/* Selected District Callout (if clicked via district) */}
           {s.selectedDistrict && (
@@ -581,20 +608,25 @@ export const DetailPanel: React.FC<DetailPanelProps> = ({
 
   // Render Generic Detail View for Rivers, Mountains, Dams, Lakes, Minerals, Ports, etc.
   return (
-    <div className="h-full flex flex-col bg-slate-900 border-l border-slate-800 text-slate-100 shadow-2xl overflow-hidden font-sans">
-      <div className="p-5 border-b border-slate-800 bg-slate-950/70 backdrop-blur-md flex items-start justify-between shrink-0">
+    <div 
+      className="h-full w-full flex flex-col bg-slate-900 border-l border-slate-800 text-slate-100 shadow-2xl overflow-hidden font-sans select-text"
+      onTouchStart={(e) => e.stopPropagation()}
+      onTouchMove={(e) => e.stopPropagation()}
+      onTouchEnd={(e) => e.stopPropagation()}
+    >
+      <div className="p-4 sm:p-5 border-b border-slate-800 bg-slate-950/70 backdrop-blur-md flex items-start justify-between shrink-0">
         <div>
           <span className="px-2.5 py-0.5 rounded text-[11px] font-bold tracking-wider uppercase bg-cyan-500/20 text-cyan-400 border border-cyan-500/30">
             {featureType.toUpperCase()}
           </span>
-          <h2 className="text-2xl font-black tracking-tight text-white mt-1.5">{selectedFeature.name}</h2>
+          <h2 className="text-xl sm:text-2xl font-black tracking-tight text-white mt-1.5">{selectedFeature.name}</h2>
           {selectedFeature.category && (
             <p className="text-xs text-slate-400 mt-0.5">{selectedFeature.category}</p>
           )}
         </div>
         <div className="flex items-center gap-1 shrink-0">
           <button 
-            onClick={() => setIsMinimized(true)}
+            onClick={toggleMin}
             className="p-1.5 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800 transition-colors md:hidden"
             title="Minimize to Peek Map"
           >
@@ -610,7 +642,10 @@ export const DetailPanel: React.FC<DetailPanelProps> = ({
         </div>
       </div>
 
-      <div className="flex-1 overflow-y-auto p-5 space-y-5 text-sm text-slate-300">
+      <div 
+        className="flex-1 overflow-y-auto p-4 sm:p-5 space-y-5 text-sm text-slate-300 touch-pan-y overscroll-contain select-text"
+        style={{ WebkitOverflowScrolling: 'touch', touchAction: 'pan-y' }}
+      >
         
         {/* River Details */}
         {featureType === 'river' && (

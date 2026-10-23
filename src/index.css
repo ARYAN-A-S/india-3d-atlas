@@ -10,12 +10,30 @@
     font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
     color: #EDEDF2;
     background-color: #090A0C;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  * {
+    -webkit-tap-highlight-color: transparent;
   }
 
   ::selection {
     background-color: rgba(212, 175, 55, 0.3);
     color: #FDFBF7;
   }
+}
+
+/* Mobile Touch Momentum & Hardware Acceleration Scrolling */
+.touch-pan-y {
+  touch-action: pan-y !important;
+  -webkit-overflow-scrolling: touch !important;
+  overscroll-behavior-y: contain;
+}
+
+.touch-pan-x {
+  touch-action: pan-x !important;
+  -webkit-overflow-scrolling: touch !important;
+  overscroll-behavior-x: contain;
 }
 
 /* Custom Gold & Aesthetic Text Utilities */

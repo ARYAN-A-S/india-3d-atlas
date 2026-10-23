@@ -27,6 +27,7 @@ export function App() {
 
   const [selectedFeature, setSelectedFeature] = useState<any | null>(null);
   const [selectedFeatureType, setSelectedFeatureType] = useState<string>('state');
+  const [isDetailMinimized, setIsDetailMinimized] = useState<boolean>(false);
   const [hoveredFeature, setHoveredFeature] = useState<{ name: string; type: string; summary?: string } | null>(null);
   const [focusCoordinates, setFocusCoordinates] = useState<[number, number] | null>(null);
   const [activeWaypointCoords, setActiveWaypointCoords] = useState<[number, number] | null>(null);
@@ -44,6 +45,7 @@ export function App() {
   const handleSelectFeature = (feat: any, type: string) => {
     setSelectedFeature(feat);
     setSelectedFeatureType(type);
+    setIsDetailMinimized(false);
 
     if (feat.coordinates) {
       setFocusCoordinates(feat.coordinates);
@@ -117,11 +119,19 @@ export function App() {
 
         {/* Sliding / Collapsible Detail Sidebar */}
         {selectedFeature && (
-          <div className="fixed inset-x-0 bottom-14 md:bottom-0 md:top-0 z-40 max-h-[82vh] md:max-h-none md:relative md:w-[480px] lg:w-[540px] xl:w-[600px] md:h-full md:z-40 md:shrink-0 animate-slide-up md:animate-slide-left shadow-2xl">
+          <div 
+            className={
+              isDetailMinimized
+                ? "fixed inset-x-3 bottom-16 z-40 h-auto pointer-events-auto animate-slide-up shadow-2xl"
+                : "fixed inset-x-0 bottom-14 top-16 md:top-0 md:bottom-0 z-40 md:relative md:w-[480px] lg:w-[540px] xl:w-[600px] md:h-full md:z-40 md:shrink-0 flex flex-col overflow-hidden shadow-2xl animate-slide-up md:animate-slide-left pointer-events-auto"
+            }
+          >
             <DetailPanel
               selectedFeature={selectedFeature}
               featureType={selectedFeatureType}
               onClose={() => setSelectedFeature(null)}
+              isMinimized={isDetailMinimized}
+              onToggleMinimize={() => setIsDetailMinimized(prev => !prev)}
             />
           </div>
         )}
