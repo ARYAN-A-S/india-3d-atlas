@@ -27,7 +27,8 @@ import {
   Tag, 
   Navigation,
   Sparkles,
-  Anchor
+  Anchor,
+  Layers
 } from 'lucide-react';
 
 interface Map3DCanvasProps {
@@ -38,6 +39,7 @@ interface Map3DCanvasProps {
   setHoveredFeature: (feat: { name: string; type: string; summary?: string } | null) => void;
   focusCoordinates?: [number, number] | null;
   activeWaypointCoords?: [number, number] | null;
+  onOpenLayers?: () => void;
 }
 
 export const Map3DCanvas: React.FC<Map3DCanvasProps> = ({
@@ -47,7 +49,8 @@ export const Map3DCanvas: React.FC<Map3DCanvasProps> = ({
   hoveredFeature,
   setHoveredFeature,
   focusCoordinates,
-  activeWaypointCoords
+  activeWaypointCoords,
+  onOpenLayers
 }) => {
   const [scale, setScale] = useState<number>(() => {
     if (typeof window !== 'undefined' && window.innerWidth < 768) {
@@ -828,6 +831,15 @@ export const Map3DCanvas: React.FC<Map3DCanvasProps> = ({
       {/* Viewport Floating Controls (Top Right) */}
       <div className="absolute top-14 sm:top-4 right-3 sm:right-4 z-20 flex flex-col gap-1.5">
         <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-1.5 flex flex-col gap-1 shadow-2xl backdrop-blur-md">
+          {onOpenLayers && (
+            <button
+              onClick={onOpenLayers}
+              className="p-2 sm:p-2 rounded-xl text-cyan-400 hover:text-white hover:bg-slate-800 transition-colors bg-cyan-950/40 border border-cyan-500/30"
+              title="Toggle Map Layers"
+            >
+              <Layers className="w-4 h-4" />
+            </button>
+          )}
           <button
             onClick={() => setScale(s => Math.min(6.5, s * 1.25))}
             className="p-2 sm:p-2 rounded-xl text-slate-300 hover:text-white hover:bg-slate-800 transition-colors"

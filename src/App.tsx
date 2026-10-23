@@ -5,6 +5,7 @@ import { TopNavbar } from './components/TopNavbar';
 import { ExamQuizModal } from './components/ExamQuizModal';
 import { FlashcardModal } from './components/FlashcardModal';
 import { TraceRiverModal } from './components/TraceRiverModal';
+import { LayerModal } from './components/LayerModal';
 import { MapLayer, LearningMode } from './types/atlas';
 import { UniversalSearchResult, rivers, physicalFeatures, dams, lakes, protectedAreas, historicalSites } from './data/atlas';
 import { getStateData } from './data/atlas/states';
@@ -35,6 +36,7 @@ export function App() {
   const [isQuizOpen, setIsQuizOpen] = useState<boolean>(false);
   const [isFlashcardOpen, setIsFlashcardOpen] = useState<boolean>(false);
   const [isTraceRiverOpen, setIsTraceRiverOpen] = useState<boolean>(false);
+  const [isLayerModalOpen, setIsLayerModalOpen] = useState<boolean>(false);
 
   // Toggle Layer visibility
   const toggleLayer = (layer: MapLayer) => {
@@ -100,6 +102,7 @@ export function App() {
         onOpenQuiz={() => setIsQuizOpen(true)}
         onOpenFlashcards={() => setIsFlashcardOpen(true)}
         onOpenTraceRiver={() => setIsTraceRiverOpen(true)}
+        onOpenLayers={() => setIsLayerModalOpen(true)}
       />
 
       {/* Main Interactive Stage */}
@@ -114,6 +117,7 @@ export function App() {
             setHoveredFeature={setHoveredFeature}
             focusCoordinates={focusCoordinates}
             activeWaypointCoords={activeWaypointCoords}
+            onOpenLayers={() => setIsLayerModalOpen(true)}
           />
         </div>
 
@@ -160,6 +164,14 @@ export function App() {
           setActiveWaypointCoords(coords);
           setFocusCoordinates(coords);
         }}
+      />
+
+      {/* Dedicated Interactive Map Layers Modal */}
+      <LayerModal
+        isOpen={isLayerModalOpen}
+        onClose={() => setIsLayerModalOpen(false)}
+        activeLayers={activeLayers}
+        toggleLayer={toggleLayer}
       />
     </div>
   );
