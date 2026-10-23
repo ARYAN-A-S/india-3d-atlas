@@ -49,7 +49,12 @@ export const Map3DCanvas: React.FC<Map3DCanvasProps> = ({
   focusCoordinates,
   activeWaypointCoords
 }) => {
-  const [scale, setScale] = useState<number>(1);
+  const [scale, setScale] = useState<number>(() => {
+    if (typeof window !== 'undefined' && window.innerWidth < 768) {
+      return 0.72;
+    }
+    return 1.0;
+  });
   const [translate, setTranslate] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
   const [isPanning, setIsPanning] = useState<boolean>(false);
   const [startPan, setStartPan] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
@@ -58,6 +63,11 @@ export const Map3DCanvas: React.FC<Map3DCanvasProps> = ({
   const [tilt, setTilt] = useState<{ rotateX: number; rotateZ: number }>({ rotateX: 28, rotateZ: -4 });
 
   const containerRef = useRef<HTMLDivElement>(null);
+  const touchStartRef = useRef<{ x: number; y: number } | null>(null);
+  const initialPinchDistRef = useRef<number | null>(null);
+  const initialScaleRef = useRef<number>(1);
+  const hasMovedSignificantlyRef = useRef<boolean>(false);
+
   const pathsLookup = indiaSvgPaths as Record<string, string>;
   const colorsLookup = stateColors as Record<string, number>;
 
@@ -76,34 +86,90 @@ export const Map3DCanvas: React.FC<Map3DCanvasProps> = ({
     return [x, y];
   };
 
-  // Pan interaction
+  // Mouse pan interaction
   const handleMouseDown = (e: React.MouseEvent) => {
     if (e.button === 0 || e.button === 1 || e.button === 2) {
       setIsPanning(true);
+      hasMovedSignificantlyRef.current = false;
       setStartPan({ x: e.clientX - translate.x, y: e.clientY - translate.y });
     }
   };
 
   const handleMouseMove = (e: React.MouseEvent) => {
     if (!isPanning) return;
-    setTranslate({
-      x: e.clientX - startPan.x,
-      y: e.clientY - startPan.y
-    });
+    const newX = e.clientX - startPan.x;
+    const newY = e.clientY - startPan.y;
+    if (Math.abs(newX - translate.x) > 3 || Math.abs(newY - translate.y) > 3) {
+      hasMovedSignificantlyRef.current = true;
+    }
+    setTranslate({ x: newX, y: newY });
   };
 
   const handleMouseUp = () => {
     setIsPanning(false);
+    setTimeout(() => {
+      hasMovedSignificantlyRef.current = false;
+    }, 100);
+  };
+
+  // Mobile Touch Gestures (Single finger Pan & Two finger Pinch-Zoom)
+  const handleTouchStart = (e: React.TouchEvent) => {
+    if (e.touches.length === 1) {
+      touchStartRef.current = {
+        x: e.touches[0].clientX - translate.x,
+        y: e.touches[0].clientY - translate.y
+      };
+      hasMovedSignificantlyRef.current = false;
+      setIsPanning(true);
+    } else if (e.touches.length === 2) {
+      const dist = Math.hypot(
+        e.touches[0].clientX - e.touches[1].clientX,
+        e.touches[0].clientY - e.touches[1].clientY
+      );
+      initialPinchDistRef.current = dist;
+      initialScaleRef.current = scale;
+      setIsPanning(false);
+    }
+  };
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    if (e.touches.length === 1 && touchStartRef.current) {
+      const newX = e.touches[0].clientX - touchStartRef.current.x;
+      const newY = e.touches[0].clientY - touchStartRef.current.y;
+      if (Math.abs(newX - translate.x) > 3 || Math.abs(newY - translate.y) > 3) {
+        hasMovedSignificantlyRef.current = true;
+      }
+      setTranslate({ x: newX, y: newY });
+    } else if (e.touches.length === 2 && initialPinchDistRef.current) {
+      hasMovedSignificantlyRef.current = true;
+      const currentDist = Math.hypot(
+        e.touches[0].clientX - e.touches[1].clientX,
+        e.touches[0].clientY - e.touches[1].clientY
+      );
+      const factor = currentDist / initialPinchDistRef.current;
+      const newScale = Math.max(0.45, Math.min(6.5, initialScaleRef.current * factor));
+      setScale(newScale);
+    }
+  };
+
+  const handleTouchEnd = () => {
+    setIsPanning(false);
+    touchStartRef.current = null;
+    initialPinchDistRef.current = null;
+    setTimeout(() => {
+      hasMovedSignificantlyRef.current = false;
+    }, 120);
   };
 
   const handleWheel = (e: React.WheelEvent) => {
     e.preventDefault();
     const zoomFactor = e.deltaY < 0 ? 1.15 : 0.87;
-    setScale((prev) => Math.max(0.7, Math.min(6.5, prev * zoomFactor)));
+    setScale((prev) => Math.max(0.45, Math.min(6.5, prev * zoomFactor)));
   };
 
   const handleResetView = () => {
-    setScale(1);
+    const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
+    setScale(isMobile ? 0.72 : 1.0);
     setTranslate({ x: 0, y: 0 });
     setIs3DMode(false);
     setTilt({ rotateX: 28, rotateZ: -4 });
@@ -111,15 +177,17 @@ export const Map3DCanvas: React.FC<Map3DCanvasProps> = ({
 
   // Jump to specific geographic region
   const jumpToRegion = (region: string) => {
+    const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
+    const mult = isMobile ? 0.75 : 1.0;
     const centers: Record<string, { x: number; y: number; s: number }> = {
-      all: { x: 0, y: 0, s: 1.0 },
-      north: { x: 50, y: 140, s: 1.6 },
-      south: { x: -30, y: -220, s: 1.7 },
-      east: { x: -160, y: -40, s: 1.7 },
-      west: { x: 180, y: 20, s: 1.6 },
-      central: { x: 0, y: -20, s: 1.6 },
-      northeast: { x: -380, y: 70, s: 2.1 },
-      islands: { x: -360, y: -290, s: 2.2 }
+      all: { x: 0, y: 0, s: isMobile ? 0.72 : 1.0 },
+      north: { x: 50, y: 140, s: 1.6 * mult },
+      south: { x: -30, y: -220, s: 1.7 * mult },
+      east: { x: -160, y: -40, s: 1.7 * mult },
+      west: { x: 180, y: 20, s: 1.6 * mult },
+      central: { x: 0, y: -20, s: 1.6 * mult },
+      northeast: { x: -380, y: 70, s: 2.1 * mult },
+      islands: { x: -360, y: -290, s: 2.2 * mult }
     };
     const c = centers[region] || centers.all;
     setScale(c.s);
@@ -145,10 +213,14 @@ export const Map3DCanvas: React.FC<Map3DCanvasProps> = ({
       onMouseDown={handleMouseDown}
       onMouseMove={handleMouseMove}
       onMouseUp={handleMouseUp}
+      onTouchStart={handleTouchStart}
+      onTouchMove={handleTouchMove}
+      onTouchEnd={handleTouchEnd}
+      onTouchCancel={handleTouchEnd}
       onWheel={handleWheel}
       onContextMenu={(e) => e.preventDefault()}
-      className="relative w-full h-full select-none overflow-hidden bg-gradient-to-b from-[#030712] via-[#071328] to-[#020617] cursor-grab active:cursor-grabbing flex items-center justify-center"
-      style={{ perspective: is3DMode ? '1100px' : 'none' }}
+      className="relative w-full h-full select-none overflow-hidden bg-gradient-to-b from-[#030712] via-[#071328] to-[#020617] cursor-grab active:cursor-grabbing flex items-center justify-center touch-none"
+      style={{ perspective: is3DMode ? '1100px' : 'none', touchAction: 'none' }}
     >
       {/* Precision Grid Matrix Background */}
       <div 
@@ -159,8 +231,8 @@ export const Map3DCanvas: React.FC<Map3DCanvasProps> = ({
         }}
       />
 
-      {/* Quick Region Bar at Top */}
-      <div className="absolute top-3 left-4 z-20 flex items-center gap-1.5 bg-slate-900/90 border border-slate-800/80 rounded-xl px-2.5 py-1.5 text-xs backdrop-blur-md shadow-2xl">
+      {/* Quick Region Bar at Top (Horizontally scrollable on mobile phones) */}
+      <div className="absolute top-3 left-3 right-16 sm:right-auto sm:left-4 z-20 flex items-center gap-1.5 bg-slate-900/90 border border-slate-800/80 rounded-xl px-2.5 py-1.5 text-xs backdrop-blur-md shadow-2xl overflow-x-auto scrollbar-none max-w-[calc(100vw-80px)] sm:max-w-none">
         <Navigation className="w-3.5 h-3.5 text-cyan-400 shrink-0" />
         <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider hidden sm:inline mr-1">Region:</span>
         {[
@@ -176,7 +248,7 @@ export const Map3DCanvas: React.FC<Map3DCanvasProps> = ({
           <button
             key={r.id}
             onClick={() => jumpToRegion(r.id)}
-            className="px-2 py-0.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition-colors text-[11px] font-medium"
+            className="px-2 py-0.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition-colors text-[11px] font-medium whitespace-nowrap"
           >
             {r.label}
           </button>
@@ -754,18 +826,18 @@ export const Map3DCanvas: React.FC<Map3DCanvasProps> = ({
       )}
 
       {/* Viewport Floating Controls (Top Right) */}
-      <div className="absolute top-4 right-4 z-20 flex flex-col gap-2">
+      <div className="absolute top-14 sm:top-4 right-3 sm:right-4 z-20 flex flex-col gap-1.5">
         <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-1.5 flex flex-col gap-1 shadow-2xl backdrop-blur-md">
           <button
             onClick={() => setScale(s => Math.min(6.5, s * 1.25))}
-            className="p-2 rounded-xl text-slate-300 hover:text-white hover:bg-slate-800 transition-colors"
+            className="p-2 sm:p-2 rounded-xl text-slate-300 hover:text-white hover:bg-slate-800 transition-colors"
             title="Zoom In"
           >
             <ZoomIn className="w-4 h-4" />
           </button>
           <button
-            onClick={() => setScale(s => Math.max(0.7, s * 0.8))}
-            className="p-2 rounded-xl text-slate-300 hover:text-white hover:bg-slate-800 transition-colors"
+            onClick={() => setScale(s => Math.max(0.45, s * 0.8))}
+            className="p-2 sm:p-2 rounded-xl text-slate-300 hover:text-white hover:bg-slate-800 transition-colors"
             title="Zoom Out"
           >
             <ZoomOut className="w-4 h-4" />
@@ -795,7 +867,7 @@ export const Map3DCanvas: React.FC<Map3DCanvasProps> = ({
 
         {/* 3D Angle Slider when 3D mode is toggled */}
         {is3DMode && (
-          <div className="bg-slate-900/90 border border-slate-800 rounded-xl p-2.5 text-[11px] text-slate-300 backdrop-blur-md shadow-xl flex flex-col gap-1.5 w-36">
+          <div className="bg-slate-900/90 border border-slate-800 rounded-xl p-2.5 text-[11px] text-slate-300 backdrop-blur-md shadow-xl flex flex-col gap-1.5 w-32 sm:w-36">
             <div className="flex justify-between items-center text-slate-400 text-[10px] font-bold uppercase tracking-wider">
               <span>3D Pitch</span>
               <span className="text-amber-400">{tilt.rotateX}°</span>
@@ -812,14 +884,14 @@ export const Map3DCanvas: React.FC<Map3DCanvasProps> = ({
         )}
       </div>
 
-      {/* Guide Badge Bottom Right */}
-      <div className="absolute bottom-4 right-4 z-20 pointer-events-none">
+      {/* Guide Badge Bottom Right (Hidden on mobile phones to maximize map area) */}
+      <div className="absolute bottom-4 right-4 z-20 pointer-events-none hidden md:block">
         <div className="bg-slate-900/85 border border-slate-800 rounded-xl px-3 py-1.5 text-[11px] text-slate-400 backdrop-blur-md shadow-xl flex items-center gap-2.5">
-          <span>Click + Drag to Pan</span>
+          <span>Click + Drag or Touch to Pan</span>
           <span>•</span>
-          <span>Scroll to Zoom</span>
+          <span>Pinch / Scroll to Zoom</span>
           <span>•</span>
-          <span className="text-amber-400 font-semibold">Click any Place to Learn</span>
+          <span className="text-amber-400 font-semibold">Tap any State to Learn</span>
         </div>
       </div>
     </div>

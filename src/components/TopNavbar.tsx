@@ -125,8 +125,8 @@ export const TopNavbar: React.FC<TopNavbarProps> = ({
         )}
       </div>
 
-      {/* Layer Toggles & Exam Controls */}
-      <div className="flex items-center gap-2 shrink-0">
+      {/* Layer Toggles & Exam Controls (Desktop) */}
+      <div className="hidden md:flex items-center gap-2 shrink-0">
         {/* Layer Visibility Menu */}
         <div className="relative">
           <button
@@ -134,12 +134,12 @@ export const TopNavbar: React.FC<TopNavbarProps> = ({
             className="px-3 py-1.5 rounded-xl bg-slate-800/80 hover:bg-slate-800 border border-slate-700/80 text-xs font-semibold text-slate-200 flex items-center gap-1.5 transition-colors shadow-sm"
           >
             <Layers className="w-3.5 h-3.5 text-cyan-400" />
-            <span className="hidden md:inline">Map Layers</span>
+            <span>Map Layers</span>
             <ChevronDown className="w-3 h-3 text-slate-400" />
           </button>
 
           {showLayerMenu && (
-            <div className="absolute right-0 top-full mt-1.5 w-52 bg-slate-900 border border-slate-700 rounded-xl shadow-2xl p-2 z-50 space-y-1">
+            <div className="absolute right-0 top-full mt-1.5 w-56 bg-slate-900 border border-slate-700 rounded-xl shadow-2xl p-2 z-50 space-y-1">
               {[
                 { id: 'states', label: 'States & UTs' },
                 { id: 'rivers', label: 'Rivers & Basins' },
@@ -176,7 +176,7 @@ export const TopNavbar: React.FC<TopNavbarProps> = ({
           title="Step-by-step guided journey from river source to mouth"
         >
           <Droplet className="w-3.5 h-3.5 text-cyan-400" />
-          <span className="hidden sm:inline">Trace River</span>
+          <span>Trace River</span>
         </button>
 
         {/* Flashcards Button */}
@@ -185,7 +185,7 @@ export const TopNavbar: React.FC<TopNavbarProps> = ({
           className="px-3 py-1.5 rounded-xl bg-slate-800/80 hover:bg-slate-800 border border-slate-700/80 text-xs font-semibold text-slate-200 flex items-center gap-1.5 transition-colors"
         >
           <BookOpen className="w-3.5 h-3.5 text-amber-400" />
-          <span className="hidden sm:inline">Daily 10 Cards</span>
+          <span>Daily 10 Cards</span>
         </button>
 
         {/* Exam Quiz Modal Button */}
@@ -197,6 +197,94 @@ export const TopNavbar: React.FC<TopNavbarProps> = ({
           <span>Exam Quiz</span>
         </button>
       </div>
+
+      {/* Layer Visibility Sheet for Mobile (When activated via bottom or top) */}
+      {showLayerMenu && (
+        <div className="md:hidden fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-end justify-center p-3">
+          <div className="w-full max-w-sm bg-slate-900 border border-slate-700 rounded-3xl p-4 shadow-2xl space-y-2 animate-slide-up mb-16">
+            <div className="flex items-center justify-between pb-2 border-b border-slate-800">
+              <div className="flex items-center gap-2">
+                <Layers className="w-4 h-4 text-cyan-400" />
+                <h4 className="text-sm font-bold text-white">Interactive Map Layers</h4>
+              </div>
+              <button
+                onClick={() => setShowLayerMenu(false)}
+                className="p-1 rounded-lg text-slate-400 hover:text-white"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+            <div className="grid grid-cols-2 gap-1.5 pt-1 max-h-60 overflow-y-auto">
+              {[
+                { id: 'states', label: 'States & UTs' },
+                { id: 'rivers', label: 'Rivers System' },
+                { id: 'mountains', label: 'Mountains & Peaks' },
+                { id: 'passes', label: 'Passes & Channels' },
+                { id: 'dams', label: 'Dams & Reservoirs' },
+                { id: 'parks', label: 'National Parks' },
+                { id: 'minerals', label: 'Minerals & Mines' },
+                { id: 'infrastructure', label: 'Ports & Infra' },
+                { id: 'history', label: 'Historical Sites' },
+                { id: 'districts', label: 'Districts (594)' },
+              ].map((layer) => (
+                <label
+                  key={layer.id}
+                  className="flex items-center justify-between p-2 rounded-xl bg-slate-800/60 text-xs text-slate-200"
+                >
+                  <span className="truncate pr-1">{layer.label}</span>
+                  <input
+                    type="checkbox"
+                    checked={activeLayers[layer.id as MapLayer] ?? false}
+                    onChange={() => toggleLayer(layer.id as MapLayer)}
+                    className="accent-amber-500 rounded h-4 w-4 shrink-0"
+                  />
+                </label>
+              ))}
+            </div>
+            <button
+              onClick={() => setShowLayerMenu(false)}
+              className="w-full py-2 bg-amber-500 text-slate-950 rounded-xl font-bold text-xs mt-2"
+            >
+              Done
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* Mobile Native Bottom Navigation Bar (Fixed at bottom on phones) */}
+      <nav className="md:hidden fixed bottom-0 left-0 right-0 z-30 bg-slate-900/95 border-t border-slate-800 backdrop-blur-lg flex items-center justify-around py-2 px-2 shadow-2xl">
+        <button
+          onClick={() => setShowLayerMenu(!showLayerMenu)}
+          className={`flex flex-col items-center gap-1 text-[10px] font-semibold transition-colors ${showLayerMenu ? 'text-amber-400' : 'text-slate-400 hover:text-white'}`}
+        >
+          <Layers className="w-4 h-4" />
+          <span>Layers</span>
+        </button>
+
+        <button
+          onClick={onOpenTraceRiver}
+          className="flex flex-col items-center gap-1 text-[10px] font-semibold text-cyan-400 hover:text-cyan-300 transition-colors"
+        >
+          <Droplet className="w-4 h-4" />
+          <span>Voyage</span>
+        </button>
+
+        <button
+          onClick={onOpenFlashcards}
+          className="flex flex-col items-center gap-1 text-[10px] font-semibold text-amber-300 hover:text-amber-200 transition-colors"
+        >
+          <BookOpen className="w-4 h-4" />
+          <span>Cards</span>
+        </button>
+
+        <button
+          onClick={onOpenQuiz}
+          className="flex flex-col items-center gap-1 text-[10px] font-bold text-emerald-400 hover:text-emerald-300 transition-colors"
+        >
+          <Award className="w-4 h-4" />
+          <span>Quiz</span>
+        </button>
+      </nav>
     </header>
   );
 };

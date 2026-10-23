@@ -87,7 +87,7 @@ export function App() {
   };
 
   return (
-    <div className="flex flex-col h-screen w-screen overflow-hidden bg-slate-950 text-slate-100 font-sans">
+    <div className="flex flex-col h-screen w-screen overflow-hidden bg-slate-950 text-slate-100 font-sans pb-14 md:pb-0">
       {/* Top Universal Navbar */}
       <TopNavbar
         learningMode={learningMode}
@@ -117,7 +117,7 @@ export function App() {
 
         {/* Sliding / Collapsible Detail Sidebar */}
         {selectedFeature && (
-          <div className="w-full md:w-[480px] lg:w-[540px] xl:w-[600px] h-full z-40 animate-slide-left shrink-0">
+          <div className="fixed inset-x-0 bottom-14 md:bottom-0 md:top-0 z-40 max-h-[82vh] md:max-h-none md:relative md:w-[480px] lg:w-[540px] xl:w-[600px] md:h-full md:z-40 md:shrink-0 animate-slide-up md:animate-slide-left shadow-2xl">
             <DetailPanel
               selectedFeature={selectedFeature}
               featureType={selectedFeatureType}
