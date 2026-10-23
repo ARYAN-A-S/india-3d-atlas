@@ -1,0 +1,170 @@
+[
+  {
+    "id": "q1",
+    "question": "Which is the highest mountain peak located entirely within the undisputed sovereign territory of India?",
+    "category": "Geography",
+    "type": "mcq",
+    "options": [
+      "Kangchenjunga",
+      "Nanda Devi",
+      "Kamet",
+      "K2 (Godwin-Austen)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Nanda Devi (7,816 m) in Chamoli district of Uttarakhand is the highest peak located entirely within India. Kangchenjunga (8,586 m) lies on the Indo-Nepal international boundary, while K2 (8,611 m) is located in Pakistan-occupied Kashmir (Gilgit-Baltistan).",
+    "examFacts": [
+      "Nanda Devi National Park was inscribed as a UNESCO World Heritage Site in 1988."
+    ],
+    "coordinates": [
+      79.97,
+      30.37
+    ]
+  },
+  {
+    "id": "q2",
+    "question": "Which Indian state has the longest coastline among all mainland states?",
+    "category": "Geography",
+    "type": "mcq",
+    "options": [
+      "Tamil Nadu",
+      "Maharashtra",
+      "Andhra Pradesh",
+      "Gujarat"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Gujarat possesses the longest coastline among all Indian states, spanning approximately 1,600 km (~24% of the mainland Indian coastline), followed by Andhra Pradesh (~974 km) and Tamil Nadu (~906 km).",
+    "examFacts": [
+      "India's total coastline including island territories is 7,516.6 km."
+    ],
+    "coordinates": [
+      71.5,
+      22.0
+    ]
+  },
+  {
+    "id": "q3",
+    "question": "On which river is the world's longest earthen dam, Hirakud Dam, constructed?",
+    "category": "Rivers & Water",
+    "type": "mcq",
+    "options": [
+      "Godavari",
+      "Mahanadi",
+      "Narmada",
+      "Krishna"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Hirakud Dam was constructed across the Mahanadi River near Sambalpur in Odisha. Inaugurated in 1957 by Jawaharlal Nehru, its main section is 4.8 km and total dyke system extends 25.8 km.",
+    "examFacts": [
+      "Hirakud Reservoir was designated as a Ramsar Wetland site in 2021."
+    ],
+    "coordinates": [
+      83.87,
+      21.52
+    ]
+  },
+  {
+    "id": "q4",
+    "question": "Keibul Lamjao National Park, the world's only floating national park, is situated on which water body?",
+    "category": "Environment",
+    "type": "mcq",
+    "options": [
+      "Chilika Lake",
+      "Loktak Lake",
+      "Wular Lake",
+      "Vembanad Lake"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Keibul Lamjao National Park is located on Loktak Lake in Bishnupur district of Manipur. It is famous for floating biomass islands called 'Phumdis' and is the exclusive refuge of the endangered dancing deer, Sangai.",
+    "examFacts": [
+      "Loktak Lake is listed on the Ramsar Montreux Record due to ecological concerns from Ithai Barrage."
+    ],
+    "coordinates": [
+      93.85,
+      24.5
+    ]
+  },
+  {
+    "id": "q5",
+    "question": "The historic Dandi March launched by Mahatma Gandhi in March 1930 originated from which location?",
+    "category": "History",
+    "type": "mcq",
+    "options": [
+      "Sevagram Ashram, Wardha",
+      "Sabarmati Ashram, Ahmedabad",
+      "Kochrab Ashram",
+      "Bardoli"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Salt Satyagraha march began on 12 March 1930 from Sabarmati Ashram in Ahmedabad and covered 240 miles to the coastal village of Dandi in Navsari district, Gujarat.",
+    "examFacts": [
+      "Accompanied by 78 chosen Satyagrahis from various provinces of India."
+    ],
+    "coordinates": [
+      72.58,
+      23.06
+    ]
+  },
+  {
+    "id": "q6",
+    "question": "Which was the first state in Independent India formed on a linguistic basis?",
+    "category": "Polity",
+    "type": "mcq",
+    "options": [
+      "Kerala",
+      "Andhra State",
+      "Karnataka (Mysore)",
+      "Maharashtra"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Andhra State was created on 1 October 1953 by carving out Telugu-speaking northern districts from Madras State following the 56-day hunger strike and martyrdom of Potti Sreeramulu. This spurred the appointment of the States Reorganisation Commission (Fazal Ali Commission) in December 1953.",
+    "examFacts": [
+      "The States Reorganisation Act was enacted by Parliament in November 1956."
+    ],
+    "coordinates": [
+      80.5,
+      16.5
+    ]
+  },
+  {
+    "id": "q7",
+    "question": "Which pass is certified by Guinness World Records as the highest motorable road in the world?",
+    "category": "Geography",
+    "type": "mcq",
+    "options": [
+      "Khardung La",
+      "Zoji La",
+      "Umling La",
+      "Rohtang Pass"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Umling La Pass in eastern Ladakh, constructed by the Border Roads Organisation (BRO) under Project Himank at an altitude of 19,024 feet (5,798 m), is officially recognized as the highest motorable road in the world.",
+    "examFacts": [
+      "Constructed to connect Chisumle and Demchok near the Line of Actual Control."
+    ],
+    "coordinates": [
+      79.28,
+      32.69
+    ]
+  },
+  {
+    "id": "q8",
+    "question": "Which tiger reserve in India holds the distinction of having the largest geographical area?",
+    "category": "Environment",
+    "type": "mcq",
+    "options": [
+      "Jim Corbett Tiger Reserve",
+      "Bandipur Tiger Reserve",
+      "Nagarjunsagar-Srisailam Tiger Reserve",
+      "Similipal Tiger Reserve"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Nagarjunsagar-Srisailam Tiger Reserve in Andhra Pradesh covers an area of 3,728 sq km, making it the largest tiger reserve by total area in India.",
+    "examFacts": [
+      "Bor Tiger Reserve in Maharashtra has the smallest core area among tiger reserves in India."
+    ],
+    "coordinates": [
+      78.85,
+      16.0
+    ]
+  }
+]

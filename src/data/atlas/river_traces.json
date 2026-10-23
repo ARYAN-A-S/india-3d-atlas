@@ -1,0 +1,376 @@
+[
+  {
+    "riverId": "ganga",
+    "riverName": "Ganga (The National River of India)",
+    "totalLengthKm": 2525,
+    "originText": "Gangotri Glacier (Gaumukh, Uttarkashi, Uttarakhand - 3,892 m)",
+    "mouthText": "Sundarbans Delta into Bay of Bengal (Meghna estuary)",
+    "waypoints": [
+      {
+        "id": "g1",
+        "title": "Stage 1: Glacial Source at Gaumukh",
+        "stage": "Origin",
+        "description": "Emerges as the Bhagirathi River from the snout of the Gangotri Glacier at Gaumukh (3,892 m) in the Uttarkashi district of Uttarakhand.",
+        "coordinates": [
+          79.08,
+          30.92
+        ],
+        "examNote": "Bhagirathi is considered the source stream of the Ganga in mythology and official geography.",
+        "px": 425.4,
+        "py": 332.3
+      },
+      {
+        "id": "g2",
+        "title": "Stage 2: Tehri Dam (Tallest Dam in India)",
+        "stage": "Dam/Barrage",
+        "description": "India's tallest dam (260.5 m rock and earth-fill embankment) impounding the Bhagirathi and Bhilangna rivers, generating 2,400 MW.",
+        "coordinates": [
+          78.48,
+          30.38
+        ],
+        "examNote": "Subject of Sundarlal Bahuguna's historic Chipko and anti-dam environmental resistance.",
+        "px": 412.3,
+        "py": 346
+      },
+      {
+        "id": "g3",
+        "title": "Stage 3: Devprayag Confluence (Birth of Name 'Ganga')",
+        "stage": "Confluence",
+        "description": "The turbulent Bhagirathi merges with the calm, voluminous Alaknanda at Devprayag. Downstream from this fifth and final Panch Prayag confluence, the combined river is officially named the Ganga.",
+        "coordinates": [
+          78.6,
+          30.15
+        ],
+        "examNote": "Panch Prayag sequence from north to south: Vishnuprayag (Dhauliganga) -> Nandaprayag (Nandakini) -> Karnaprayag (Pindar) -> Rudraprayag (Mandakini) -> Devprayag (Bhagirathi + Alaknanda).",
+        "px": 414.9,
+        "py": 351.8
+      },
+      {
+        "id": "g4",
+        "title": "Stage 4: Haridwar (Emergence into the Northern Plains)",
+        "stage": "Key City",
+        "description": "The Ganga breaks through the Siwalik foothills and enters the vast alluvial Indo-Gangetic Plains. Here the Upper Ganga Canal diverts water for agricultural irrigation across western UP.",
+        "coordinates": [
+          78.16,
+          29.95
+        ],
+        "examNote": "Hosted the historic 1854 Upper Ganga Canal built by British engineer Proby Cautley.",
+        "px": 405.3,
+        "py": 356.9
+      },
+      {
+        "id": "g5",
+        "title": "Stage 5: Prayagraj (Triveni Sangam)",
+        "stage": "Confluence",
+        "description": "Confluence of India's two greatest rivers: the Ganga and its largest right-bank tributary, the Yamuna (along with the mythical subterranean Saraswati).",
+        "coordinates": [
+          81.88,
+          25.43
+        ],
+        "examNote": "Site of the Maha Kumbh Mela (inscribed on UNESCO Intangible Cultural Heritage list).",
+        "px": 486.5,
+        "py": 468.3
+      },
+      {
+        "id": "g6",
+        "title": "Stage 6: Varanasi (Kashi)",
+        "stage": "Key City",
+        "description": "The river takes a north-flowing crescent arc (Uttravahini Ganga) through one of the world's oldest continuously inhabited spiritual and educational capitals.",
+        "coordinates": [
+          83.01,
+          25.32
+        ],
+        "examNote": "National Waterway 1 (NW-1) multimodal cargo terminal operates here under the Jal Marg Vikas Project.",
+        "px": 511.1,
+        "py": 470.9
+      },
+      {
+        "id": "g7",
+        "title": "Stage 7: Farakka Barrage Bifurcation",
+        "stage": "Bifurcation",
+        "description": "A 2,240 m barrage in Murshidabad (West Bengal) where the Ganga bifurcates into the Bhagirathi-Hooghly (flowing south through West Bengal to Kolkata) and the main stream entering Bangladesh as the Padma.",
+        "coordinates": [
+          87.92,
+          24.8
+        ],
+        "examNote": "Subject of the 1996 Indo-Bangladesh Ganga Water Sharing Treaty.",
+        "px": 618.3,
+        "py": 483.4
+      },
+      {
+        "id": "g8",
+        "title": "Stage 8: Sundarbans Delta & Bay of Bengal",
+        "stage": "Mouth/Delta",
+        "description": "The combined Ganga-Brahmaputra-Meghna discharges into the Bay of Bengal, forming the world's largest mangrove delta: the UNESCO World Heritage Sundarbans.",
+        "coordinates": [
+          88.85,
+          21.8
+        ],
+        "examNote": "Home of the Royal Bengal Tiger and the endangered Ganges River Dolphin (Platanista gangetica), India's National Aquatic Animal.",
+        "px": 638.5,
+        "py": 554.7
+      }
+    ]
+  },
+  {
+    "riverId": "brahmaputra",
+    "riverName": "Brahmaputra (Tsangpo - Siang - Jamuna)",
+    "totalLengthKm": 2880,
+    "originText": "Angsi Glacier (Mount Kailash vicinity, western Tibet - 5,300 m)",
+    "mouthText": "Bay of Bengal (via Meghna confluence in Bangladesh)",
+    "waypoints": [
+      {
+        "id": "b1",
+        "title": "Stage 1: Yarlung Tsangpo in Tibet",
+        "stage": "Origin",
+        "description": "Flows eastward parallel to the Great Himalayas for ~1,700 km as the high-altitude Yarlung Tsangpo through the arid Tibetan plateau.",
+        "coordinates": [
+          82.05,
+          30.38
+        ],
+        "examNote": "Known as the world's highest major river, flowing at an average elevation above 4,000 meters.",
+        "px": 490.2,
+        "py": 346
+      },
+      {
+        "id": "b2",
+        "title": "Stage 2: The Great Bend around Namcha Barwa",
+        "stage": "Confluence",
+        "description": "Carves the colossal Yarlung Tsangpo Grand Canyon (deepest canyon on Earth) making a dramatic hairpin U-turn around the eastern Himalayan anchor peak Namcha Barwa (7,782 m).",
+        "coordinates": [
+          95.05,
+          29.8
+        ],
+        "examNote": "Classical antecedent drainage demonstrating that the river predates the uplift of the Himalayan mountains.",
+        "px": 773.8,
+        "py": 360.6
+      },
+      {
+        "id": "b3",
+        "title": "Stage 3: Siang / Dihang in Arunachal Pradesh",
+        "stage": "Key City",
+        "description": "Enters India near Gelling in the Upper Siang district of Arunachal Pradesh as the roaring Siang River, descending through spectacular gorges.",
+        "coordinates": [
+          94.9,
+          28.5
+        ],
+        "examNote": "Site of strategic hydropower proposals and flood mitigation monitoring.",
+        "px": 770.6,
+        "py": 393.1
+      },
+      {
+        "id": "b4",
+        "title": "Stage 4: Sadiya Tri-Confluence (Birth of Name 'Brahmaputra')",
+        "stage": "Confluence",
+        "description": "Near Sadiya in Assam, the Dihang is joined by two massive left-bank tributaries: the Dibang and the Lohit. Downstream of this tri-junction, it assumes the name Brahmaputra.",
+        "coordinates": [
+          95.58,
+          27.8
+        ],
+        "examNote": "Connected by the 9.15 km Bhupen Hazarika Setu (Dhola-Sadiya Bridge) across the Lohit River, India's longest bridge over water.",
+        "px": 785.4,
+        "py": 410.4
+      },
+      {
+        "id": "b5",
+        "title": "Stage 5: Majuli Island (World's Largest River Island)",
+        "stage": "Key City",
+        "description": "Braided channels enclose Majuli, the world's largest inhabited river island and the cultural epicenter of Srimanta Sankardeva's Neo-Vaishnavite Satra culture.",
+        "coordinates": [
+          94.22,
+          26.95
+        ],
+        "examNote": "First island district in India, declared in 2016 by the Government of Assam.",
+        "px": 755.7,
+        "py": 431.3
+      },
+      {
+        "id": "b6",
+        "title": "Stage 6: Kaziranga & Guwahati (Saraighat)",
+        "stage": "Key City",
+        "description": "Flows along Kaziranga National Park (One-Horned Rhinoceros habitat) and narrows at Guwahati where the historic Battle of Saraighat (1671) took place under Ahom general Lachit Borphukan.",
+        "coordinates": [
+          91.73,
+          26.18
+        ],
+        "examNote": "National Waterway 2 (NW-2) operates from Dhubri to Sadiya along the Brahmaputra.",
+        "px": 701.4,
+        "py": 450.1
+      },
+      {
+        "id": "b7",
+        "title": "Stage 7: Enters Bangladesh as the Jamuna",
+        "stage": "Bifurcation",
+        "description": "Loops around the Garo Hills near Dhubri and turns southward into Bangladesh, where it is known as the Jamuna River before joining the Padma (Ganga) at Goalundo.",
+        "coordinates": [
+          89.85,
+          25.1
+        ],
+        "examNote": "Its massive sediment yield is the second highest in the world after the Yellow River (Huang He).",
+        "px": 660.4,
+        "py": 476.2
+      }
+    ]
+  },
+  {
+    "riverId": "godavari",
+    "riverName": "Godavari (Dakshin Ganga)",
+    "totalLengthKm": 1465,
+    "originText": "Trimbakeshwar (Nashik, Western Ghats, Maharashtra - 1,067 m)",
+    "mouthText": "Bay of Bengal (Gautami & Vasishta mouths near Yanam)",
+    "waypoints": [
+      {
+        "id": "gd1",
+        "title": "Stage 1: Source at Trimbakeshwar",
+        "stage": "Origin",
+        "description": "Originates from the Brahmagiri Mountain at Trimbakeshwar in the Nashik district of Maharashtra, site of one of the 12 sacred Jyotirlingas.",
+        "coordinates": [
+          73.53,
+          19.93
+        ],
+        "examNote": "Second longest river in India and the longest Peninsular river system (accounting for nearly 10% of India's total geographic area).",
+        "px": 304.3,
+        "py": 598.4
+      },
+      {
+        "id": "gd2",
+        "title": "Stage 2: Jayakwadi Dam (Nath Sagar)",
+        "stage": "Dam/Barrage",
+        "description": "Major earthen multipurpose dam in Paithan (Aurangabad/Chhatrapati Sambhajinagar), supplying water to the drought-prone Marathwada region.",
+        "coordinates": [
+          75.38,
+          19.48
+        ],
+        "examNote": "Jayakwadi Bird Sanctuary around Nath Sagar reservoir is home to numerous migratory avian species.",
+        "px": 344.6,
+        "py": 608.8
+      },
+      {
+        "id": "gd3",
+        "title": "Stage 3: Kaleshwaram Lift Irrigation Project",
+        "stage": "Dam/Barrage",
+        "description": "World's largest multi-stage lift irrigation project at the confluence of the Godavari and Pranhita rivers in Telangana.",
+        "coordinates": [
+          79.91,
+          18.82
+        ],
+        "examNote": "Pranhita (formed by confluence of Wardha, Penganga, and Wainganga) brings over 34% of Godavari's total water discharge.",
+        "px": 443.5,
+        "py": 624
+      },
+      {
+        "id": "gd4",
+        "title": "Stage 4: Polavaram Project & Papi Hills Gorge",
+        "stage": "Dam/Barrage",
+        "description": "Pierces through the picturesque gorge of Papi Hills (Papi Kondalu) in the Eastern Ghats where the national multi-purpose Polavaram irrigation dam is built.",
+        "coordinates": [
+          81.65,
+          17.25
+        ],
+        "examNote": "Declared a National Irrigation Project under the Andhra Pradesh Reorganisation Act 2014.",
+        "px": 481.4,
+        "py": 660.1
+      },
+      {
+        "id": "gd5",
+        "title": "Stage 5: Rajahmundry & Deltaic Discharge",
+        "stage": "Mouth/Delta",
+        "description": "Reaches the delta head at Sir Arthur Cotton Barrage (Dowleswaram Barrage) near Rajahmundry, bifurcating into two main distributaries: Gautami Godavari and Vasishta Godavari into the Bay of Bengal.",
+        "coordinates": [
+          81.78,
+          16.98
+        ],
+        "examNote": "Forms the fertile Krishna-Godavari (KG) delta basin, also celebrated for the offshore KG-D6 deep-water natural gas discoveries.",
+        "px": 484.3,
+        "py": 666.2
+      }
+    ]
+  },
+  {
+    "riverId": "narmada",
+    "riverName": "Narmada (Lifeline of Madhya Pradesh and Gujarat)",
+    "totalLengthKm": 1312,
+    "originText": "Amarkantak Plateau (Maikal Range, Anuppur, MP - 1,057 m)",
+    "mouthText": "Gulf of Khambhat (Arabian Sea near Bharuch)",
+    "waypoints": [
+      {
+        "id": "n1",
+        "title": "Stage 1: Origin at Amarkantak",
+        "stage": "Origin",
+        "description": "Rises from Narmada Kund on the sacred Amarkantak plateau in the Maikal Range of eastern Madhya Pradesh.",
+        "coordinates": [
+          81.75,
+          22.67
+        ],
+        "examNote": "Radial drainage center where the Narmada flows west, the Son flows north-east to the Ganga, and the Johilla flows into Son.",
+        "px": 483.6,
+        "py": 534.2
+      },
+      {
+        "id": "n2",
+        "title": "Stage 2: Dhuandhar Falls & Marble Rocks (Jabalpur)",
+        "stage": "Key City",
+        "description": "Plunges 30 meters at the Dhuandhar ('Smoky Cascades') waterfall and carves a spectacular 3 km gorge through gleaming white magnesium marble cliffs at Bhedaghat.",
+        "coordinates": [
+          79.8,
+          23.13
+        ],
+        "examNote": "Classic geological example of river incision through crystalline limestone / dolomite rocks.",
+        "px": 441.1,
+        "py": 523.3
+      },
+      {
+        "id": "n3",
+        "title": "Stage 3: The Great Rift Valley Flow",
+        "stage": "Confluence",
+        "description": "Flows westward through a tectonic fault trough (graben) between two block mountain ranges: the Vindhyas to the north and the Satpuras to the south.",
+        "coordinates": [
+          77.2,
+          22.45
+        ],
+        "examNote": "Because it flows in a rigid fault-guided rift valley, the Narmada and Tapi do not form deltas; they form clean estuaries!",
+        "px": 384.3,
+        "py": 539.4
+      },
+      {
+        "id": "n4",
+        "title": "Stage 4: Indira Sagar Dam (Narmadanagar)",
+        "stage": "Dam/Barrage",
+        "description": "India's largest reservoir by water storage capacity (12.22 billion cubic meters), located in the Khandwa district of Madhya Pradesh.",
+        "coordinates": [
+          76.47,
+          22.28
+        ],
+        "examNote": "Mother project for downstream irrigation dams including Omkareshwar and Maheshwar.",
+        "px": 368.4,
+        "py": 543.4
+      },
+      {
+        "id": "n5",
+        "title": "Stage 5: Sardar Sarovar Dam & Statue of Unity",
+        "stage": "Dam/Barrage",
+        "description": "Major concrete gravity dam (138.68 m height) in Gujarat feeding the 458 km long Narmada Main Canal to arid Saurashtra and Kutch. Overlooked by the 182-meter Statue of Unity.",
+        "coordinates": [
+          73.74,
+          21.83
+        ],
+        "examNote": "Centerpiece of Medha Patkar's Narmada Bachao Andolan (NBA) environmental movement.",
+        "px": 308.9,
+        "py": 554
+      },
+      {
+        "id": "n6",
+        "title": "Stage 6: Estuary into the Gulf of Khambhat",
+        "stage": "Mouth/Delta",
+        "description": "Forms a wide 25 km tidal estuary near Bharuch in Gujarat, draining cleanly into the Gulf of Khambhat (Arabian Sea).",
+        "coordinates": [
+          72.75,
+          21.65
+        ],
+        "examNote": "Longest west-flowing river of Peninsular India; produces no delta due to rapid tidal scouring.",
+        "px": 287.3,
+        "py": 558.2
+      }
+    ]
+  }
+]

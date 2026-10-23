@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Andaman and Nicobar",
+    "capital": "Port Blair (Sri Vijaya Puram)",
+    "px": 735,
+    "py": 820
+  },
+  {
+    "name": "Telangana",
+    "capital": "Hyderabad",
+    "px": 430,
+    "py": 650
+  },
+  {
+    "name": "Andhra Pradesh",
+    "capital": "Amaravati",
+    "px": 450,
+    "py": 715
+  },
+  {
+    "name": "Arunachal Pradesh",
+    "capital": "Itanagar",
+    "px": 760,
+    "py": 400
+  },
+  {
+    "name": "Assam",
+    "capital": "Dispur",
+    "px": 710,
+    "py": 455
+  },
+  {
+    "name": "Bihar",
+    "capital": "Patna",
+    "px": 560,
+    "py": 460
+  },
+  {
+    "name": "Chandigarh",
+    "capital": "Chandigarh (joint capital of Punjab and Haryana)",
+    "px": 375,
+    "py": 337
+  },
+  {
+    "name": "Chhattisgarh",
+    "capital": "Raipur (Nava Raipur Atal Nagar)",
+    "px": 475,
+    "py": 565
+  },
+  {
+    "name": "Delhi",
+    "capital": "New Delhi (National Capital Territory of Delhi - NCT)",
+    "px": 380,
+    "py": 405
+  },
+  {
+    "name": "Goa",
+    "capital": "Panaji",
+    "px": 312,
+    "py": 688
+  },
+  {
+    "name": "Gujarat",
+    "capital": "Gandhinagar",
+    "px": 270,
+    "py": 525
+  },
+  {
+    "name": "Haryana",
+    "capital": "Chandigarh",
+    "px": 360,
+    "py": 385
+  },
+  {
+    "name": "Himachal Pradesh",
+    "capital": "Shimla (Summer), Dharamshala (Winter)",
+    "px": 380,
+    "py": 320
+  },
+  {
+    "name": "Jammu and Kashmir",
+    "capital": "Srinagar (Summer), Jammu (Winter)",
+    "px": 330,
+    "py": 270
+  },
+  {
+    "name": "Jharkhand",
+    "capital": "Ranchi",
+    "px": 560,
+    "py": 525
+  },
+  {
+    "name": "Karnataka",
+    "capital": "Bengaluru",
+    "px": 360,
+    "py": 715
+  },
+  {
+    "name": "Kerala",
+    "capital": "Thiruvananthapuram",
+    "px": 370,
+    "py": 800
+  },
+  {
+    "name": "Lakshadweep",
+    "capital": "Kavaratti",
+    "px": 295,
+    "py": 795
+  },
+  {
+    "name": "Madhya Pradesh",
+    "capital": "Bhopal",
+    "px": 410,
+    "py": 525
+  },
+  {
+    "name": "Maharashtra",
+    "capital": "Mumbai, Nagpur (Winter capital)",
+    "px": 350,
+    "py": 600
+  },
+  {
+    "name": "Manipur",
+    "capital": "Imphal",
+    "px": 760,
+    "py": 505
+  },
+  {
+    "name": "Meghalaya",
+    "capital": "Shillong",
+    "px": 680,
+    "py": 475
+  },
+  {
+    "name": "Mizoram",
+    "capital": "Aizawl",
+    "px": 740,
+    "py": 545
+  },
+  {
+    "name": "Nagaland",
+    "capital": "Kohima",
+    "px": 770,
+    "py": 465
+  },
+  {
+    "name": "Odisha",
+    "capital": "Bhubaneswar",
+    "px": 535,
+    "py": 590
+  },
+  {
+    "name": "Puducherry",
+    "capital": "Puducherry (formerly Pondicherry; renamed 2006)",
+    "px": 418,
+    "py": 738
+  },
+  {
+    "name": "Punjab",
+    "capital": "Chandigarh",
+    "px": 330,
+    "py": 340
+  },
+  {
+    "name": "Rajasthan",
+    "capital": "Jaipur ('Pink City')",
+    "px": 300,
+    "py": 430
+  },
+  {
+    "name": "Sikkim",
+    "capital": "Gangtok",
+    "px": 625,
+    "py": 410
+  },
+  {
+    "name": "Tamil Nadu",
+    "capital": "Chennai ('Detroit of South Asia')",
+    "px": 420,
+    "py": 790
+  },
+  {
+    "name": "Tripura",
+    "capital": "Agartala",
+    "px": 705,
+    "py": 525
+  },
+  {
+    "name": "Uttar Pradesh",
+    "capital": "Lucknow ('City of Nawabs')",
+    "px": 450,
+    "py": 445
+  },
+  {
+    "name": "Uttarakhand",
+    "capital": "Dehradun (Winter), Gairsain / Bhararisain (Summer)",
+    "px": 430,
+    "py": 350
+  },
+  {
+    "name": "West Bengal",
+    "capital": "Kolkata ('City of Joy')",
+    "px": 620,
+    "py": 530
+  },
+  {
+    "name": "Ladakh",
+    "capital": "Leh, Kargil",
+    "px": 390,
+    "py": 250
+  },
+  {
+    "name": "Dadra and Nagar Haveli and Daman and Diu",
+    "capital": "Daman",
+    "px": 270,
+    "py": 585
+  }
+]

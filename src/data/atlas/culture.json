@@ -1,0 +1,77 @@
+[
+  {
+    "id": "bharatanatyam",
+    "name": "Bharatanatyam",
+    "category": "Classical Dance",
+    "associatedRegion": "Tamil Nadu (Thanjavur)",
+    "state": "Tamil Nadu",
+    "coordinates": [
+      79.13,
+      10.78
+    ],
+    "significance": "Oldest classical dance tradition of India, originally performed in temple sanctums by Devadasis as Sadir / Dasi Attam.",
+    "examFacts": [
+      "One of the eight classical dances of India recognized by the Sangeet Natak Akademi.",
+      "Traced to Bharata Muni's Natya Shastra and Nandikeshvara's Abhinaya Darpana.",
+      "Revived and codified in the early 20th century by E. Krishna Iyer and Rukmini Devi Arundale (who founded Kalakshetra in 1936).",
+      "Repertoire structured by the Thanjavur Quartet (Chinnayya, Ponnaiya, Sivanandam, Vadivelu): Alarippu, Jatiswaram, Shabdam, Varnam, Padam, Javali, and Tillana.",
+      "Emphasizes Ekaharya (one dancer playing multiple characters) and fire/Agni element (cosmic dance of Nataraja)."
+    ]
+  },
+  {
+    "id": "kathakali",
+    "name": "Kathakali",
+    "category": "Classical Dance",
+    "associatedRegion": "Kerala",
+    "state": "Kerala",
+    "coordinates": [
+      76.27,
+      9.98
+    ],
+    "significance": "Grand classical dance-drama known for elaborate facial makeup (Vesham), towering headdresses (Kireetam), and profound eye expressions (Navarasas).",
+    "examFacts": [
+      "Evolved from earlier performing arts: Ramanattam (created by Kottarakkara Thampuran), Krishnanattam, and Koodiyattam.",
+      "Characters categorized by elaborate makeup types: Paccha (Green - noble heroes/gods), Kathi (Knife - villains with arrogance like Ravana), Thadi (Beard - red, black, white), Kari (Black - demonesses), and Minukku (Radiant - women and sages).",
+      "Revived by renowned Malayalam poet Vallathol Narayana Menon who established Kerala Kalamandalam in 1930.",
+      "Accompanied by Sopana Sangeetham vocal singing and Chenda, Maddalam, Chengila, and Ilathalam percussion.",
+      "Dancers undergo years of rigorous eye-muscle training using ghee and medicinal massage (Chavitti Uzhichil)."
+    ]
+  },
+  {
+    "id": "garba",
+    "name": "Garba of Gujarat",
+    "category": "Folk Dance",
+    "associatedRegion": "Gujarat",
+    "state": "Gujarat",
+    "coordinates": [
+      72.57,
+      23.02
+    ],
+    "significance": "Devotional circle folk dance performed during the nine nights of Navratri, celebrating the divine feminine Shakti / Goddess Amba.",
+    "examFacts": [
+      "Inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity in December 2023 (India's 15th intangible heritage element).",
+      "The word 'Garba' derives from Sanskrit 'Garbha' (womb); dancers move in concentric circles around a perforated earthen lamp (Garbha Deep) symbolizing embryonic life and the cyclical cosmos.",
+      "Performed exclusively in circles, symbolizing the Hindu cyclical view of time from creation to destruction.",
+      "Celebrated across Gujarat and the global diaspora during the nine nights of Sharad Navratri, making it one of the largest participatory public dance festivals in the world."
+    ]
+  },
+  {
+    "id": "chhau",
+    "name": "Chhau Dance",
+    "category": "Folk Dance",
+    "associatedRegion": "Jharkhand, West Bengal, Odisha",
+    "state": "Jharkhand",
+    "coordinates": [
+      85.98,
+      22.78
+    ],
+    "significance": "Vigorous semi-classical martial dance enacting episodes from the Ramayana, Mahabharata, and indigenous folklore.",
+    "examFacts": [
+      "Inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity in 2010.",
+      "Possesses three distinct geographical styles: Seraikella Chhau (Jharkhand - uses stylized masks), Purulia Chhau (West Bengal - uses colossal acrobatic clay/paper-mache masks), and Mayurbhanj Chhau (Odisha - performed without masks).",
+      "Rooted in ancient indigenous martial arts movements (Chhari and Parikhanda).",
+      "Traditionally performed during the spring festival of Chaitra Parva in honor of Shiva, Shakti, and Sun God.",
+      "Characterized by high leaps, athletic leg extensions, and dynamic drum rhythms played on Dhol, Nagara, and Shehnai."
+    ]
+  }
+]

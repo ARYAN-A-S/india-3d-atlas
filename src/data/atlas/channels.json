@@ -1,0 +1,129 @@
+[
+  {
+    "id": "ten_degree_channel",
+    "name": "10 Degree Channel (10° N)",
+    "latitudeDeg": 10,
+    "separates": "Little Andaman (Andaman Islands) from Car Nicobar (Nicobar Islands)",
+    "coordinates": [
+      92.8,
+      10
+    ],
+    "significance": "Major international maritime waterway ~150 km wide separating the Andaman group from the Nicobar group in the Bay of Bengal.",
+    "examFacts": [
+      "UPSC CSE Classic Question: Exactly 10° N latitude passes through this waterway separating the Andaman Islands (Little Andaman) from the Nicobar Islands (Car Nicobar).",
+      "Depth ranges from 730 m to over 1,000 m, making it a safe navigational route for international merchant vessels into the Malacca Strait.",
+      "Monitored round the clock by the Andaman and Nicobar Command (ANC) based at Port Blair."
+    ],
+    "px": 724.7,
+    "py": 822.9
+  },
+  {
+    "id": "nine_degree_channel",
+    "name": "9 Degree Channel (9° N)",
+    "latitudeDeg": 9,
+    "separates": "Minicoy Island from the main Lakshadweep archipelago (Kalpeni and Suheli Par)",
+    "coordinates": [
+      73,
+      9
+    ],
+    "significance": "Strategically vital ~200 km wide shipping lane in the Arabian Sea through which almost all merchant transit between Europe/Middle East and Southeast Asia passes.",
+    "examFacts": [
+      "Separates Minicoy Island in the south from the northern islands of Lakshadweep (specifically Kalpeni and Suheli).",
+      "One of the busiest commercial sea corridors in the Indian Ocean carrying over 80,000 ships annually.",
+      "Heavily patrolled by the Indian Navy and Indian Coast Guard from INS Dweeprakshak (Kavaratti)."
+    ],
+    "px": 292.7,
+    "py": 845
+  },
+  {
+    "id": "eight_degree_channel",
+    "name": "8 Degree Channel (8° N)",
+    "latitudeDeg": 8,
+    "separates": "Minicoy Island (India) from the Maldives (Ihavandhippolhu Atoll)",
+    "coordinates": [
+      73,
+      8
+    ],
+    "significance": "International maritime boundary line (IMBL) separating the Republic of India from the Republic of Maldives.",
+    "examFacts": [
+      "Marks the maritime border between India's southernmost territory in Lakshadweep (Minicoy Island) and the northernmost atoll of Maldives.",
+      "Maritime boundary formalized under the 1976 Indo-Maldives Maritime Agreement.",
+      "Direct western approach to the vital Indian Ocean shipping lanes."
+    ],
+    "px": 292.7,
+    "py": 867.1
+  },
+  {
+    "id": "duncan_passage",
+    "name": "Duncan Passage",
+    "latitudeDeg": 11.2,
+    "separates": "Rutland Island (South Andaman) from Little Andaman",
+    "coordinates": [
+      92.6,
+      11.2
+    ],
+    "significance": "A 48 km wide strait in the Bay of Bengal lying between South Andaman and Little Andaman.",
+    "examFacts": [
+      "UPSC CSE Classic Question: Duncan Passage lies between South Andaman (specifically Rutland Island) and Little Andaman.",
+      "Contains small islet stepping stones including The Sisters and The Brothers islands.",
+      "Acts as an inner passage for coastal shipping across the Andaman archipelago."
+    ],
+    "px": 720.4,
+    "py": 796.3
+  },
+  {
+    "id": "great_channel",
+    "name": "Great Channel (Six Degree Channel / 6° N)",
+    "latitudeDeg": 6,
+    "separates": "Great Nicobar (Indira Point, India) from Sumatra Island (Aceh Province, Indonesia)",
+    "coordinates": [
+      94,
+      6
+    ],
+    "significance": "Strategic choke point guarding the western entrance to the Malacca Strait; vital to India's 'Act East' policy and maritime security.",
+    "examFacts": [
+      "Also known as the Six Degree Channel because the international maritime boundary runs near 6° N latitude.",
+      "Indira Point (6°45' N), India's southernmost geographical point, directly overlooks this channel.",
+      "The Indian Government's flagship Great Nicobar Mega-Project envisions an International Container Transshipment Terminal (ICTT) at Galathea Bay on this channel."
+    ],
+    "px": 750.9,
+    "py": 911
+  },
+  {
+    "id": "palk_strait",
+    "name": "Palk Strait & Adam's Bridge (Ram Setu)",
+    "latitudeDeg": 9.8,
+    "separates": "Tamil Nadu (India) from the Jaffna Peninsula (Northern Province, Sri Lanka)",
+    "coordinates": [
+      79.5,
+      9.8
+    ],
+    "significance": "Inlet of the Bay of Bengal separating southeastern India from Sri Lanka, bounded in the south by Pamban Island and Adam's Bridge shoal chain.",
+    "examFacts": [
+      "Named after Robert Palk, Governor of Madras Presidency during the East India Company period (1755-67).",
+      "The shallow chain of limestone shoals between Pamban Island (Dhanushkodi, India) and Mannar Island (Sri Lanka) is known as Adam's Bridge or Ram Setu.",
+      "Drained by the Vaigai River from Tamil Nadu.",
+      "Site of the controversial Sethusamudram Shipping Canal Project proposal."
+    ],
+    "px": 434.5,
+    "py": 827.3
+  },
+  {
+    "id": "gulf_of_mannar",
+    "name": "Gulf of Mannar",
+    "latitudeDeg": 8.8,
+    "separates": "Southeastern tip of India (Coromandel Coast / Tuticorin) from Western Sri Lanka",
+    "coordinates": [
+      78.8,
+      8.8
+    ],
+    "significance": "Shallow bay forming part of the Laccadive Sea; designated as India's first Marine Biosphere Reserve (1989).",
+    "examFacts": [
+      "First Marine Biosphere Reserve in South and Southeast Asia, encompassing 21 uninhabited islands and rich coral reefs.",
+      "Home to the vulnerable Dugong (Sea Cow), India's premier marine mammal, and endangered Olive Ridley sea turtles.",
+      "Historically famous for natural pearl oyster fisheries celebrated since the Sangam era (Korkai port of Pandyan kingdom)."
+    ],
+    "px": 419.3,
+    "py": 849.4
+  }
+]

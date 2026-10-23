@@ -1,0 +1,202 @@
+[
+  {
+    "id": "kolar_gold",
+    "name": "Kolar Gold Fields (KGF)",
+    "mineral": "Gold",
+    "state": "Karnataka",
+    "district": "Kolar",
+    "coordinates": [
+      78.27,
+      12.96
+    ],
+    "type": "Historic Underground Mine",
+    "description": "One of the deepest gold mines in the world (over 3,000 meters / Champion Reef mine). Produced gold for over a century before closing in 2001.",
+    "examFacts": [
+      "Second deepest underground mine in the world at its peak (~3.2 km deep Champion Reef mine).",
+      "Electrified in 1902 using power from the Shivanasamudra Hydroelectric Project (Asia's first major hydroelectric plant).",
+      "Operated by Bharat Gold Mines Limited (BGML) before operations halted in 2001 due to declining ore grade."
+    ],
+    "px": 407.7,
+    "py": 757
+  },
+  {
+    "id": "panna_diamond",
+    "name": "Panna Diamond Belt (Majhgawan)",
+    "mineral": "Diamond",
+    "state": "Madhya Pradesh",
+    "district": "Panna",
+    "coordinates": [
+      80.18,
+      24.72
+    ],
+    "type": "Kimberlite Pipe Mine",
+    "description": "Only active, mechanized commercial diamond mining region in India, operated by NMDC.",
+    "examFacts": [
+      "India's sole active commercial diamond mine, hosted in Proterozoic kimberlite/lamproite pipes and alluvial gravels.",
+      "Operated by National Mineral Development Corporation (NMDC) with an annual capacity of ~84,000 carats.",
+      "Located in the Vindhyan Supergroup geological formation adjacent to the Ken River."
+    ],
+    "px": 449.4,
+    "py": 485.4
+  },
+  {
+    "id": "jharia_coal",
+    "name": "Jharia Coalfield",
+    "mineral": "Prime Coking Coal",
+    "state": "Jharkhand",
+    "district": "Dhanbad",
+    "coordinates": [
+      86.41,
+      23.75
+    ],
+    "type": "Gondwana Coal Basin",
+    "description": "Largest repository of prime metallurgical coking coal in India, famous for long-burning underground mine fires.",
+    "examFacts": [
+      "India's richest source of metallurgical coking coal required for blast furnace steel production.",
+      "Part of the Damodar Valley Gondwana coal belt (along with Raniganj, Bokaro, and Karanpura).",
+      "Famous for uncontrolled underground coal seam fires burning continuously since 1916."
+    ],
+    "px": 585.3,
+    "py": 508.6
+  },
+  {
+    "id": "singhbhum_copper",
+    "name": "Singhbhum Copper Belt",
+    "mineral": "Copper & Uranium",
+    "state": "Jharkhand",
+    "district": "East Singhbhum",
+    "coordinates": [
+      86.35,
+      22.65
+    ],
+    "type": "Proterozoic Shear Zone",
+    "description": "Prominent mineralized shear zone hosting copper mines (Mosabani, Rakha) and uranium deposits (Jaduguda).",
+    "examFacts": [
+      "Singhbhum Shear Zone (SSZ) is an arcuate thrust belt separating the Singhbhum Craton from the North Singhbhum Fold Belt.",
+      "Hosts Jaduguda, India's first commercial uranium mine operated by Uranium Corporation of India Limited (UCIL).",
+      "Hindustan Copper Limited (HCL) operates the Indian Copper Complex at Ghatsila here."
+    ],
+    "px": 584,
+    "py": 534.7
+  },
+  {
+    "id": "kudremukh_iron",
+    "name": "Kudremukh Iron Ore Deposit",
+    "mineral": "Iron Ore (Magnetite)",
+    "state": "Karnataka",
+    "district": "Chikkamagaluru",
+    "coordinates": [
+      75.25,
+      13.22
+    ],
+    "type": "Banded Iron Formation (BIF)",
+    "description": "High-grade magnetite deposit in the Western Ghats. Mining ceased after Supreme Court environmental rulings.",
+    "examFacts": [
+      "Name literally means 'Horse Face' due to the distinctive shape of the peak.",
+      "Mining was completely halted in 2005 by the Supreme Court to preserve the fragile biodiversity of Kudremukh National Park.",
+      "Pioneered the slurry pipeline method to transport iron ore concentrate 110 km to Mangalore Port."
+    ],
+    "px": 341.8,
+    "py": 751.2
+  },
+  {
+    "id": "bailadila_iron",
+    "name": "Bailadila Iron Ore Range",
+    "mineral": "High-Grade Hematite",
+    "state": "Chhattisgarh",
+    "district": "Dantewada",
+    "coordinates": [
+      81.25,
+      18.72
+    ],
+    "type": "Hematite Mine",
+    "description": "One of the world's richest hematite deposits with over 65% iron content, operated by NMDC.",
+    "examFacts": [
+      "Name 'Bailadila' translates to 'Bullock's Hump' in the local dialect due to the shape of the mountain ridge.",
+      "High-grade blue dust and lump ore is exported to Japan and domestic steel plants via Visakhapatnam Port.",
+      "Connected via the KK (Kottavalasa-Kirandul) railway line, India's highest broad-gauge railway line passing through the Eastern Ghats."
+    ],
+    "px": 472.7,
+    "py": 626.3
+  },
+  {
+    "id": "khetri_copper",
+    "name": "Khetri Copper Complex",
+    "mineral": "Copper",
+    "state": "Rajasthan",
+    "district": "Jhunjhunu",
+    "coordinates": [
+      75.78,
+      27.98
+    ],
+    "type": "Hard Rock Underground Mine",
+    "description": "Ancient and modern copper belt along the Aravalli Range; mined since the Indus Valley and Harappan eras.",
+    "examFacts": [
+      "Mining history dates back 4,000+ years to the Harappan and Vedic periods (Ganeshwar-Jodhpura culture).",
+      "Operated by Hindustan Copper Limited (HCL); prominent mines include Khetri, Kolihan, and Chandmari.",
+      "Associated with the North Delhi Fold Belt of the Aravalli mountain chain."
+    ],
+    "px": 353.4,
+    "py": 406
+  },
+  {
+    "id": "bombay_high",
+    "name": "Bombay High (Mumbai High)",
+    "mineral": "Petroleum & Natural Gas",
+    "state": "Maharashtra (Offshore)",
+    "district": "Offshore Arabian Sea (160 km west of Mumbai)",
+    "coordinates": [
+      71.05,
+      19.42
+    ],
+    "type": "Offshore Oilfield",
+    "description": "India's most productive offshore oil and gas field, discovered in 1974 and operated by ONGC.",
+    "examFacts": [
+      "Discovered in February 1974 by the Russian-Indian seismic exploration vessel and drillship Sagar Samrat.",
+      "Operated by Oil and Natural Gas Corporation (ONGC); yields sweet crude oil with low sulfur content.",
+      "Crude is transported via submarine pipelines to Uran processing plant on the mainland."
+    ],
+    "px": 250.2,
+    "py": 610.2
+  },
+  {
+    "id": "digboi_oil",
+    "name": "Digboi Oilfield",
+    "mineral": "Crude Petroleum",
+    "state": "Assam",
+    "district": "Tinsukia",
+    "coordinates": [
+      95.63,
+      27.38
+    ],
+    "type": "Oldest Operating Oilfield",
+    "description": "Birthplace of the oil industry in India and Asia; oil discovered in 1889; Digboi Refinery established in 1901.",
+    "examFacts": [
+      "Asia's first oil well was drilled here in 1889; Digboi Refinery (commissioned in 1901) is the world's oldest continuously operating oil refinery.",
+      "Historically operated by the Assam Oil Company, now managed by Indian Oil Corporation (IOCL).",
+      "Legend states the British engineer cried 'Dig boy, dig!' to the laborers, giving the town its historic name."
+    ],
+    "px": 786.5,
+    "py": 420.8
+  },
+  {
+    "id": "panchpatmali_bauxite",
+    "name": "Panchpatmali Bauxite Deposit",
+    "mineral": "Bauxite (Aluminium Ore)",
+    "state": "Odisha",
+    "district": "Koraput",
+    "coordinates": [
+      83.02,
+      18.85
+    ],
+    "type": "Lateritic Plateau Mine",
+    "description": "Asia's largest opencast bauxite mine, feeding the National Aluminium Company (NALCO) refinery at Damanjodi.",
+    "examFacts": [
+      "Odisha accounts for more than 50% of India's total bauxite production and reserves.",
+      "Captive mine for NALCO; ore is transported down the mountain via a 14.6 km long single-flight curved overland conveyor belt.",
+      "Bauxite occurs as lateritic cappings on high-altitude Eastern Ghats plateaus (Panchpatmali, Baphlimali)."
+    ],
+    "px": 511.3,
+    "py": 623.3
+  }
+]

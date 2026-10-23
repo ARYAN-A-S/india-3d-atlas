@@ -1,0 +1,320 @@
+[
+  {
+    "id": "zoji_la",
+    "name": "Zoji La",
+    "range": "Great Himalayas",
+    "state": "Ladakh / Jammu & Kashmir border",
+    "elevationM": 3528,
+    "coordinates": [
+      75.5,
+      34.28
+    ],
+    "connects": "Srinagar (Kashmir Valley) with Kargil and Leh (Ladakh)",
+    "strategicSignificance": "Vital lifeline connecting the Kashmir Valley with Ladakh along National Highway 1 (NH-1). Recaptured by Indian Army in Operation Bison (1948) using tanks at high altitude.",
+    "examFacts": [
+      "Zoji La Tunnel (14.15 km under construction) will be India and Asia's longest bi-directional road tunnel, providing all-weather connectivity.",
+      "Historically famous for Operation Bison in November 1948 where Stuart light tanks were used at over 11,500 feet elevation for the first time in world military history.",
+      "Marks the transition zone between the lush temperate Kashmir Valley and the cold arid rain-shadow Ladakh plateau."
+    ],
+    "px": 347.3,
+    "py": 245.3
+  },
+  {
+    "id": "rohtang_pass",
+    "name": "Rohtang Pass",
+    "range": "Pir Panjal Range",
+    "state": "Himachal Pradesh",
+    "elevationM": 3978,
+    "coordinates": [
+      77.24,
+      32.37
+    ],
+    "connects": "Kullu Valley with the Lahaul and Spiti Valleys of Himachal Pradesh",
+    "strategicSignificance": "Ancient trade route between Kullu and Central Asia. The 9.02 km Atal Tunnel beneath the pass provides round-the-year military and civilian transit.",
+    "examFacts": [
+      "Name literally means 'pile of corpses' in Tibetan due to frequent killer blizzards and extreme weather.",
+      "The Atal Tunnel (9.02 km) was built under the Rohtang Pass at 3,100 m elevation, bypasses snow closures and reduces distance between Manali and Keylong by 46 km.",
+      "Acts as a watershed divide between the Chenab River basin (Chandra/Bhaga) and the Beas River basin."
+    ],
+    "px": 385.2,
+    "py": 295.2
+  },
+  {
+    "id": "shipki_la",
+    "name": "Shipki La",
+    "range": "Zanskar Range",
+    "state": "Himachal Pradesh (Kinnaur)",
+    "elevationM": 3930,
+    "coordinates": [
+      78.74,
+      31.81
+    ],
+    "connects": "Kinnaur district of Himachal Pradesh with Tibet (Ngari Prefecture, China)",
+    "strategicSignificance": "The perennial antecedent Sutlej River enters India from Tibet through a deep gorge near Shipki La.",
+    "examFacts": [
+      "Sutlej River (originating from Lake Rakshastal near Mount Kailash in Tibet) pierces the Himalayas and enters India near Shipki La.",
+      "One of India's official border trade posts with China along with Nathu La (Sikkim) and Lipulekh (Uttarakhand).",
+      "Branch of the ancient Silk Road route into the Sutlej valley."
+    ],
+    "px": 417.9,
+    "py": 309.6
+  },
+  {
+    "id": "bara_lacha_la",
+    "name": "Bara-lacha La",
+    "range": "Zanskar Range",
+    "state": "Himachal Pradesh / Ladakh border",
+    "elevationM": 4890,
+    "coordinates": [
+      77.42,
+      32.73
+    ],
+    "connects": "Lahaul (Himachal Pradesh) with Leh district (Ladakh)",
+    "strategicSignificance": "Crucial high mountain pass along the Manali-Leh Highway. Source of both the Chandra and Bhaga rivers.",
+    "examFacts": [
+      "The Chandra River originates from a glacier on the south-east side and the Bhaga River originates from Suraj Tal lake near this pass.",
+      "Their confluence downstream at Tandi forms the Chandrabhaga River, known as the Chenab in Jammu & Kashmir.",
+      "Suraj Tal (Sun Lake), the third highest lake in India, is situated just below the pass."
+    ],
+    "px": 389.1,
+    "py": 285.9
+  },
+  {
+    "id": "lipulekh_pass",
+    "name": "Lipulekh Pass",
+    "range": "Kumaon Himalayas",
+    "state": "Uttarakhand (Pithoragarh)",
+    "elevationM": 5334,
+    "coordinates": [
+      80.92,
+      30.23
+    ],
+    "connects": "Pithoragarh (Uttarakhand, India) with Purang / Taklakot (Tibet, China)",
+    "strategicSignificance": "Located at the tri-junction of India, Nepal, and China. Primary overland transit pass for the annual official Kailash-Mansarovar Yatra.",
+    "examFacts": [
+      "First Indian border pass opened for trading with China in 1992 following bilateral agreements.",
+      "The Ministry of External Affairs (MEA) conducts the annual Kailash-Mansarovar Yatra pilgrimage through Lipulekh Pass.",
+      "Part of the Kalapani territorial dispute claimed by Nepal under the 1816 Treaty of Sugauli."
+    ],
+    "px": 465.5,
+    "py": 349.8
+  },
+  {
+    "id": "mana_pass",
+    "name": "Mana Pass (Dungri La)",
+    "range": "Greater Himalayas",
+    "state": "Uttarakhand (Chamoli)",
+    "elevationM": 5610,
+    "coordinates": [
+      79.25,
+      31.07
+    ],
+    "connects": "Mana village (near Badrinath) with Tibet",
+    "strategicSignificance": "One of the highest vehicle-accessible motorable mountain passes in the world; guarded by ITBP and Indian Army.",
+    "examFacts": [
+      "Mana is famously celebrated as the 'First Village of India' (formerly the last Indian village before the border with Tibet).",
+      "Source of the Saraswati River, a tributary of the Alaknanda joining at Keshav Prayag in Mana.",
+      "Deo Tal lake near Mana Pass is considered a primary source of the Saraswati River."
+    ],
+    "px": 429.1,
+    "py": 328.5
+  },
+  {
+    "id": "nathu_la",
+    "name": "Nathu La",
+    "range": "Eastern Himalayas",
+    "state": "Sikkim (East Sikkim)",
+    "elevationM": 4310,
+    "coordinates": [
+      88.85,
+      27.39
+    ],
+    "connects": "Gangtok (Sikkim, India) with the Chumbi Valley and Yadong (Tibet, China)",
+    "strategicSignificance": "Ancient branch of the Silk Route. Site of the 1967 Nathu La and Cho La clashes where the Indian Army successfully repulsed PLA aggression.",
+    "examFacts": [
+      "Reopened for bilateral border trade in July 2006 following prime ministerial agreements between India and China.",
+      "Alternative pilgrimage route for the Kailash-Mansarovar Yatra, offering a motorable path compared to trekking through Lipulekh.",
+      "Strategic proximity to the narrow Siliguri Corridor ('Chicken's Neck') via the adjacent Chumbi Valley and Doklam Plateau."
+    ],
+    "px": 638.5,
+    "py": 420.5
+  },
+  {
+    "id": "jelep_la",
+    "name": "Jelep La",
+    "range": "Eastern Himalayas",
+    "state": "Sikkim / West Bengal border",
+    "elevationM": 4267,
+    "coordinates": [
+      88.88,
+      27.36
+    ],
+    "connects": "Kalimpong / Sikkim with Lhasa (Tibet) through the Menmecho Lake and Chumbi Valley",
+    "strategicSignificance": "Historic trade route for wool trade between Tibet and Bengal prior to the 1962 Sino-Indian War.",
+    "examFacts": [
+      "Name 'Jelep La' in Tibetan translates to 'The Lovely Level Pass'.",
+      "The historic Younghusband Expedition to Lhasa (1903-04) marched through this pass.",
+      "Menmecho Lake lies just below Jelep La and gives rise to the Rangpo River, tributary of the Teesta."
+    ],
+    "px": 639.2,
+    "py": 421.3
+  },
+  {
+    "id": "bomdi_la",
+    "name": "Bomdi La",
+    "range": "Greater Himalayas",
+    "state": "Arunachal Pradesh (West Kameng)",
+    "elevationM": 2217,
+    "coordinates": [
+      92.42,
+      27.27
+    ],
+    "connects": "Tezpur (Assam) and the Brahmaputra Plains with the Tawang Valley",
+    "strategicSignificance": "Key military gateway to Tawang near the McMahon Line; site of heavy fighting in the 1962 conflict.",
+    "examFacts": [
+      "Provides strategic access to the historic Tawang Monastery (India's largest Buddhist monastery and second largest in the world after the Potala Palace).",
+      "The Sela Pass (4,170 m) with the newly inaugurated Sela Tunnel lies further north on this highway toward Tawang.",
+      "Forms the cultural transition from the plains of Assam to Monpa Tibetan Buddhist culture."
+    ],
+    "px": 716.4,
+    "py": 423.5
+  },
+  {
+    "id": "diphu_pass",
+    "name": "Diphu Pass",
+    "range": "Mishmi Hills / Purvanchal",
+    "state": "Arunachal Pradesh",
+    "elevationM": 4587,
+    "coordinates": [
+      97.41,
+      28.17
+    ],
+    "connects": "Arunachal Pradesh (India), Tibet (China), and Kachin State (Myanmar)",
+    "strategicSignificance": "Strategic tri-junction of India, China, and Myanmar on the McMahon Line.",
+    "examFacts": [
+      "Provides a natural low-altitude passage across the Indo-Myanmar border to the Irrawaddy basin.",
+      "Strategic point on the McMahon Line where border perceptions between India, Myanmar, and China converge."
+    ],
+    "px": 825.3,
+    "py": 401.3
+  },
+  {
+    "id": "banihal_pass",
+    "name": "Banihal Pass",
+    "range": "Pir Panjal Range",
+    "state": "Jammu and Kashmir",
+    "elevationM": 2832,
+    "coordinates": [
+      75.19,
+      33.51
+    ],
+    "connects": "Jammu (Outer Plains) with the Kashmir Valley (Srinagar)",
+    "strategicSignificance": "Historically bridged by the 2.85 km Jawahar Tunnel (opened in 1956) and the new Banihal-Qazigund four-lane double-tube tunnel (8.45 km).",
+    "examFacts": [
+      "The 11.2 km Pir Panjal Railway Tunnel (T-80) passes underneath this pass, connecting Banihal in Jammu with Qazigund in Kashmir (India's longest transportation railway tunnel until recent Rishikesh-Karanprayag developments).",
+      "Connects the Chenab valley with the Jhelum valley.",
+      "Name 'Banihal' means blizzard in Kashmiri."
+    ],
+    "px": 340.5,
+    "py": 265.5
+  },
+  {
+    "id": "thal_ghat",
+    "name": "Thal Ghat (Kasara Ghat)",
+    "range": "Western Ghats (Sahyadris)",
+    "state": "Maharashtra",
+    "elevationM": 585,
+    "coordinates": [
+      73.53,
+      19.69
+    ],
+    "connects": "Mumbai with Nashik, Dhule, and the northern/eastern railway corridors (Kolkata/Delhi)",
+    "strategicSignificance": "Critical mountain pass carrying the Mumbai-Agra National Highway (NH-3) and the Central Railway trunk line over the steep Sahyadri scarp.",
+    "examFacts": [
+      "Engineered with reversing stations and steep gradients requiring banker locomotives for railway trains climbing from Kasara to Igatpuri.",
+      "Gateway for trade between the Konkan coast (Mumbai port) and the northern Deccan plateau.",
+      "Rain-shadow transition where the humid Konkan climate abruptly shifts to the semi-arid dry plateau of Nashik."
+    ],
+    "px": 304.3,
+    "py": 603.9
+  },
+  {
+    "id": "bhor_ghat",
+    "name": "Bhor Ghat (Khandala Ghat)",
+    "range": "Western Ghats (Sahyadris)",
+    "state": "Maharashtra",
+    "elevationM": 610,
+    "coordinates": [
+      73.38,
+      18.75
+    ],
+    "connects": "Mumbai with Pune, Bengaluru, and Chennai across the Western Ghats",
+    "strategicSignificance": "Carries the Mumbai-Pune Expressway (India's first access-controlled toll expressway) and the Central Railway line to southern India.",
+    "examFacts": [
+      "Historically famous for the Battle of Wadgaon (1779) in the First Anglo-Maratha War, where Maratha forces under Mahadji Shinde routed the British East India Company.",
+      "One of the steepest rail ascents in the world between Karjat and Lonavala (1 in 37 incline).",
+      "Archaeologically rich with nearby ancient Karla Caves and Bhaja Caves on the Buddhist trade route."
+    ],
+    "px": 301,
+    "py": 625.6
+  },
+  {
+    "id": "palghat_gap",
+    "name": "Palghat Gap (Palakkad Gap)",
+    "range": "Western Ghats Break",
+    "state": "Kerala / Tamil Nadu border",
+    "elevationM": 140,
+    "coordinates": [
+      76.65,
+      10.78
+    ],
+    "connects": "Palakkad (Kerala) with Coimbatore (Tamil Nadu)",
+    "strategicSignificance": "A major 30 km wide structural discontinuity / geological shear zone in the continuous chain of the Western Ghats, located between the Nilgiri Hills in the north and the Anaimalai Hills in the south.",
+    "examFacts": [
+      "Low elevation (~140 m) break that allows moisture-laden South-West Monsoon winds to penetrate into western Tamil Nadu (Coimbatore region).",
+      "Major transportation artery carrying NH-544 and Southern Railway lines linking Kerala with the rest of India.",
+      "Geologically formed as a shear fracture during the separation of India and Madagascar in the late Cretaceous."
+    ],
+    "px": 372.3,
+    "py": 805.6
+  },
+  {
+    "id": "shencottah_gap",
+    "name": "Shencottah Gap",
+    "range": "Southern Western Ghats",
+    "state": "Kerala / Tamil Nadu border",
+    "elevationM": 160,
+    "coordinates": [
+      77.25,
+      8.98
+    ],
+    "connects": "Kollam / Thiruvananthapuram (Kerala) with Madurai / Tirunelveli (Tamil Nadu)",
+    "strategicSignificance": "Natural break in the southern Sahyadris separating the Cardamom Hills from the Agasthyamalai Biosphere Reserve.",
+    "examFacts": [
+      "Oldest railway connection between Travancore state and Madras Presidency, opened in 1904.",
+      "NH-744 passes through this gap, facilitating interstate vegetable, fruit, and spice commerce between Kerala and Tamil Nadu."
+    ],
+    "px": 385.4,
+    "py": 845.5
+  },
+  {
+    "id": "haldighati_pass",
+    "name": "Haldighati Pass",
+    "range": "Aravalli Range",
+    "state": "Rajasthan (Rajsamand)",
+    "elevationM": 520,
+    "coordinates": [
+      73.71,
+      24.89
+    ],
+    "connects": "Rajsamand and Udaipur across the rugged Aravalli ridges",
+    "strategicSignificance": "Historic narrow mountain pass where the Battle of Haldighati took place on 18 June 1576 between Maharana Pratap of Mewar and Mughal forces led by Raja Man Singh I of Amber.",
+    "examFacts": [
+      "Named 'Haldighati' because the yellow-colored turmeric-like soil (Haldi) of the mountain ridge.",
+      "Famous memorial to Maharana Pratap's loyal warhorse Chetak located near the pass.",
+      "Acts as a defensive natural bastion in the oldest fold mountain system in India (Aravallis)."
+    ],
+    "px": 308.2,
+    "py": 481.3
+  }
+]

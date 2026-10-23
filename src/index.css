@@ -1,0 +1,82 @@
+@import 'maplibre-gl/dist/maplibre-gl.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    color: #EDEDF2;
+    background-color: #090A0C;
+  }
+
+  ::selection {
+    background-color: rgba(212, 175, 55, 0.3);
+    color: #FDFBF7;
+  }
+}
+
+/* Custom Gold & Aesthetic Text Utilities */
+.text-gold {
+  color: #E4C26E;
+}
+
+.text-gold-light {
+  color: #F5E7C4;
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #FFF6DD 0%, #E4C26E 40%, #B89224 80%, #EED69B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-gold-subtle {
+  border-color: rgba(212, 175, 55, 0.25);
+}
+
+.border-gold-glow {
+  border-color: rgba(212, 175, 55, 0.5);
+  box-shadow: 0 0 15px -3px rgba(212, 175, 55, 0.2);
+}
+
+/* Custom editorial typography styles */
+.font-editorial-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-editorial-sans {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-editorial-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Aesthetic Black & White Grid / Dot Pattern Utilities */
+.bg-dark-grid {
+  background-size: 36px 36px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+}
+
+.bg-dark-dots {
+  background-size: 24px 24px;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+}
+
+/* Glassmorphism on black */
+.glass-panel {
+  background-color: rgba(17, 18, 22, 0.75);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-gold {
+  background-color: rgba(17, 18, 22, 0.85);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "wular_lake",
+    "name": "Wular Lake",
+    "type": "Freshwater",
+    "state": "Jammu and Kashmir",
+    "coordinates": [
+      74.55,
+      34.35
+    ],
+    "areaSqKm": 189,
+    "ramsarStatus": true,
+    "ecologicalImportance": "Largest natural freshwater lake in India; acts as a natural flood reservoir for the Jhelum River basin in Kashmir Valley.",
+    "examFacts": [
+      "Formed by tectonic activity and fed by the Jhelum River, which enters at Sopore and exits at Baramulla.",
+      "Designated as a Ramsar Wetland of International Importance in March 1990.",
+      "Contains the artificial island of Zaina Lank built by 15th-century Kashmir Sultan Zain-ul-Abidin.",
+      "Supports massive commercial fisheries and water chestnut (Singhara / Trapa natans) extraction for local livelihood."
+    ],
+    "px": 326.6,
+    "py": 243.4
+  },
+  {
+    "id": "chilika_lake",
+    "name": "Chilika Lake",
+    "type": "Brackish Lagoon",
+    "state": "Odisha",
+    "coordinates": [
+      85.35,
+      19.72
+    ],
+    "areaSqKm": 1100,
+    "ramsarStatus": true,
+    "ecologicalImportance": "Largest brackish water lagoon in Asia and the second largest coastal lagoon in the world; premier wintering ground for migratory waterfowl in the Indian subcontinent.",
+    "examFacts": [
+      "India's first designated Ramsar Wetland site (1 October 1981).",
+      "Successfully restored and removed from the Ramsar Montreux Record in 2002 after opening a new tidal sea mouth at Sipakuda.",
+      "Nalabana Island inside the lake is declared a bird sanctuary, hosting over a million migratory birds during peak winter.",
+      "Primary habitat for the endangered Irrawaddy Dolphin (Orcaella brevirostris) in India.",
+      "Separated from the Bay of Bengal by a 60-km long barrier beach and sandspit."
+    ],
+    "px": 562.2,
+    "py": 603.2
+  },
+  {
+    "id": "loktak_lake",
+    "name": "Loktak Lake",
+    "type": "Freshwater",
+    "state": "Manipur",
+    "coordinates": [
+      93.8,
+      24.55
+    ],
+    "areaSqKm": 287,
+    "ramsarStatus": true,
+    "ecologicalImportance": "Largest natural freshwater lake in Northeast India; famous for floating islands called Phumdis and the endemic dancing deer (Sangai).",
+    "examFacts": [
+      "Keibul Lamjao National Park on its southern rim is the world's only floating national park.",
+      "Home to the endangered Eld's deer subspecies Sangai (Rucervus eldii eldii), which lives exclusively on the phumdis.",
+      "Placed on the Ramsar Montreux Record in 1993 due to ecological degradation caused by the construction of the Ithai Barrage.",
+      "Phumdis are thick, floating mats of soil, decaying vegetation, and organic debris used by fisherfolk for temporary settlements called Khangpok."
+    ],
+    "px": 746.5,
+    "py": 489.4
+  },
+  {
+    "id": "vembanad_lake",
+    "name": "Vembanad Lake (Vembanad-Kol)",
+    "type": "Brackish Lagoon",
+    "state": "Kerala",
+    "coordinates": [
+      76.4,
+      9.6
+    ],
+    "areaSqKm": 2033,
+    "ramsarStatus": true,
+    "ecologicalImportance": "Longest lake in India (~96 km) and the largest lake in Kerala; core of the famous Kerala backwaters ecosystem.",
+    "examFacts": [
+      "Designated as a Ramsar Wetland of International Importance in November 2002.",
+      "Thanneermukkom Bund (saltwater barrier) divides the lake into two parts: freshwater southern section and brackish northern section.",
+      "Hosts the celebrated annual Nehru Trophy Boat Race (Vallam Kali) on the Punnamada lake stretch on the second Saturday of August.",
+      "Kuttanad below-sea-level farming system (recognized as FAO GIAHS) lies along its southern periphery.",
+      "Kumarakom Bird Sanctuary is located on the eastern shore of the lake."
+    ],
+    "px": 366.9,
+    "py": 831.8
+  },
+  {
+    "id": "sambhar_lake",
+    "name": "Sambhar Salt Lake",
+    "type": "Saline/Salt Lake",
+    "state": "Rajasthan",
+    "coordinates": [
+      75.05,
+      26.9
+    ],
+    "areaSqKm": 230,
+    "ramsarStatus": true,
+    "ecologicalImportance": "India's largest inland saline lake; critical wintering ground for tens of thousands of migratory flamingos (Phoenicopterus roseus and minor).",
+    "examFacts": [
+      "Produces approximately 9% of India's total salt via brine evaporation pans.",
+      "Designated as a Ramsar Wetland in March 1990.",
+      "Receives drainage from five seasonal rivers: Mendha, Runpangarh, Kharian, Khandel, and Samod.",
+      "Endorheic depression surrounded on all sides by the ancient Aravalli Range."
+    ],
+    "px": 337.5,
+    "py": 432.5
+  },
+  {
+    "id": "lonar_lake",
+    "name": "Lonar Crater Lake",
+    "type": "Saline/Salt Lake",
+    "state": "Maharashtra",
+    "coordinates": [
+      76.51,
+      19.98
+    ],
+    "areaSqKm": 1.13,
+    "ramsarStatus": true,
+    "ecologicalImportance": "Hyper-saline soda lake formed by a high-velocity hyper-velocity meteorite impact in basalt rock during the Pleistocene epoch (~50,000 years ago).",
+    "examFacts": [
+      "One of only four known hyper-velocity impact craters in basaltic rock anywhere on Earth.",
+      "Water is simultaneously hyper-saline (pH ~10.5) and alkaline, harboring rare haloarchaea and halo-alkaliphilic microbes.",
+      "Designated as a Ramsar Wetland of International Importance in November 2020.",
+      "Surrounded by ancient temples including the 12th-century Daitya Sudan Temple built during the Yadava dynasty."
+    ],
+    "px": 369.3,
+    "py": 597.2
+  }
+]

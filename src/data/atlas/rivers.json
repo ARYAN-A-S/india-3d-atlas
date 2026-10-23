@@ -1,0 +1,477 @@
+[
+  {
+    "id": "ganga",
+    "name": "Ganga",
+    "lengthKm": 2525,
+    "origin": "Gangotri Glacier (Gaumukh), Uttarkashi, Uttarakhand",
+    "sourceLocation": "Gaumukh (elevation ~3,892 m)",
+    "elevationSourceM": 3892,
+    "statesCrossed": [
+      "Uttarakhand",
+      "Uttar Pradesh",
+      "Bihar",
+      "West Bengal"
+    ],
+    "majorTributariesLeft": [
+      "Ramganga",
+      "Gomti",
+      "Ghaghara (Sarayu)",
+      "Gandak",
+      "Kosi",
+      "Mahananda"
+    ],
+    "majorTributariesRight": [
+      "Yamuna (largest tributary)",
+      "Son",
+      "Punpun",
+      "Damodar (via Hooghly distributary)"
+    ],
+    "directionOfFlow": "Eastward (Bay of Bengal)",
+    "majorDams": [
+      "Tehri Dam (on Bhagirathi)",
+      "Farakka Barrage",
+      "Bhimwada Barrage"
+    ],
+    "importantCities": [
+      "Haridwar",
+      "Rishikesh",
+      "Kanpur",
+      "Prayagraj",
+      "Varanasi",
+      "Patna",
+      "Bhagalpur",
+      "Kolkata (Hooghly)"
+    ],
+    "basinAreaSqKm": 861452,
+    "mouth": "Bay of Bengal (Meghna estuary / Sundarbans Delta)",
+    "interStateSignificance": "Lifeline of north India supporting ~43% of India's population; subject of National Ganga River Basin Authority & Namami Gange programme.",
+    "examFacts": [
+      "National River of India, declared in November 2008.",
+      "Formed by the sacred confluence of the Bhagirathi and Alaknanda rivers at Devprayag in Uttarakhand.",
+      "The Ganga-Brahmaputra-Meghna delta is the largest river delta in the world.",
+      "Possesses unique self-purifying property historically attributed to high bacteriophage concentration and dissolved oxygen retention.",
+      "National Waterway 1 (NW-1), the longest operational national waterway in India (1,620 km), runs from Prayagraj to Haldia on the Ganga-Bhagirathi-Hooghly system."
+    ]
+  },
+  {
+    "id": "brahmaputra",
+    "name": "Brahmaputra",
+    "lengthKm": 2880,
+    "origin": "Chemayungdung Glacier near Mount Kailash & Lake Manasarovar, Tibet",
+    "sourceLocation": "Angsi / Chemayungdung Glacier, southwestern Tibet (elevation ~5,300 m)",
+    "elevationSourceM": 5300,
+    "statesCrossed": [
+      "Arunachal Pradesh",
+      "Assam"
+    ],
+    "majorTributariesLeft": [
+      "Dibang",
+      "Lohit",
+      "Dhansiri",
+      "Kopili"
+    ],
+    "majorTributariesRight": [
+      "Subansiri (largest tributary)",
+      "Kameng (Jia Bhoreli)",
+      "Manas",
+      "Sankosh",
+      "Teesta"
+    ],
+    "directionOfFlow": "Eastward in Tibet, South into India, then West through Assam, South into Bay of Bengal",
+    "majorDams": [
+      "Ranganadi Dam",
+      "Kameng HEP",
+      "Subansiri Lower Project"
+    ],
+    "importantCities": [
+      "Pasighat",
+      "Dibrugarh",
+      "Tezpur",
+      "Guwahati",
+      "Dhubri"
+    ],
+    "basinAreaSqKm": 580000,
+    "mouth": "Bay of Bengal (unites with Ganga/Padma and Meghna in Bangladesh)",
+    "interStateSignificance": "Crucial international braided river sharing borders with China, India, Bhutan, and Bangladesh.",
+    "examFacts": [
+      "Known as the Yarlung Tsangpo in Tibet; makes a dramatic hairpin turn at Namcha Barwa (7,782 m) to enter India through the Great Yarlung Tsangpo Gorge.",
+      "Called Siang / Dihang upon entering Arunachal Pradesh; becomes the Brahmaputra after joining the Dibang and Lohit at Kobo near Sadiya.",
+      "Houses Majuli, the world's largest inhabited freshwater river island (first island district of India, declared 2016).",
+      "Has the highest discharge volume of any river in India and is notorious for massive monsoon sediment load and shifting sandbars (braided pattern).",
+      "National Waterway 2 (NW-2) spans 891 km on the Brahmaputra between Sadiya and Dhubri."
+    ]
+  },
+  {
+    "id": "indus",
+    "name": "Indus",
+    "lengthKm": 3180,
+    "origin": "Bokhar Chu glacier near Lake Manasarovar, Tibet",
+    "sourceLocation": "Bokhar Chu (Singi Khamban - Lion's Mouth, elevation ~5,182 m)",
+    "elevationSourceM": 5182,
+    "statesCrossed": [
+      "Ladakh",
+      "Jammu and Kashmir (drainage)"
+    ],
+    "majorTributariesLeft": [
+      "Zanskar",
+      "Suru",
+      "Panjnad (Jhelum, Chenab, Ravi, Beas, Sutlej)"
+    ],
+    "majorTributariesRight": [
+      "Shyok",
+      "Gilgit",
+      "Hunza",
+      "Kabul",
+      "Kurram",
+      "Gomal"
+    ],
+    "directionOfFlow": "Northwest through Ladakh, turns south around Nanga Parbat into Pakistan, drains into Arabian Sea",
+    "majorDams": [
+      "Nimoo Bazgo HEP",
+      "Chutak HEP (Suru)",
+      "Tarbela Dam (Pakistan)"
+    ],
+    "importantCities": [
+      "Leh",
+      "Skardu",
+      "Attock",
+      "Hyderabad (Sindh)",
+      "Karachi"
+    ],
+    "basinAreaSqKm": 1165000,
+    "mouth": "Arabian Sea (south of Karachi)",
+    "interStateSignificance": "Governed by the historic Indus Waters Treaty (IWT) of 1960 brokered by the World Bank between India and Pakistan.",
+    "examFacts": [
+      "Under the Indus Waters Treaty (1960), the waters of the three 'Eastern Rivers' (Sutlej, Beas, Ravi) were allocated exclusively to India, while the three 'Western Rivers' (Indus, Jhelum, Chenab) were allocated to Pakistan, with India permitted run-of-the-river hydroelectric generation and limited non-consumptive usage.",
+      "The Indus flows exclusively through the Union Territory of Ladakh within India before entering Pakistan-administered territories.",
+      "Flanked by the Ladakh Range to the north and the Zanskar Range to the south in its upper course.",
+      "Cradled the ancient Indus Valley Civilization (Harappan Civilization), one of the world's earliest bronze-age urban cultures.",
+      "Enters India near Demchok in southeastern Ladakh."
+    ]
+  },
+  {
+    "id": "godavari",
+    "name": "Godavari",
+    "lengthKm": 1465,
+    "origin": "Trimbakeshwar near Nashik, Maharashtra",
+    "sourceLocation": "Brahmagiri Mountain, Trimbakeshwar (elevation ~1,067 m)",
+    "elevationSourceM": 1067,
+    "statesCrossed": [
+      "Maharashtra",
+      "Telangana",
+      "Andhra Pradesh",
+      "Chhattisgarh (basin)",
+      "Odisha (basin)",
+      "Puducherry (Yanam mouth)"
+    ],
+    "majorTributariesLeft": [
+      "Purna",
+      "Pranahita (formed by confluence of Wardha, Penganga, and Wainganga - largest tributary)",
+      "Indravati",
+      "Sabari"
+    ],
+    "majorTributariesRight": [
+      "Pravara",
+      "Mula",
+      "Manjira (longest right-bank tributary)",
+      "Manair"
+    ],
+    "directionOfFlow": "Eastward (Bay of Bengal)",
+    "majorDams": [
+      "Gangapur Dam (Nashik)",
+      "Jayakwadi Dam (Paithan)",
+      "Sri Ram Sagar Project (Pochampad)",
+      "Kaleshwaram Lift Irrigation",
+      "Polavaram Project",
+      "Sir Arthur Cotton Barrage (Dowleswaram)"
+    ],
+    "importantCities": [
+      "Nashik",
+      "Nanded",
+      "Nizamabad",
+      "Ramagundam",
+      "Rajahmundry",
+      "Yanam"
+    ],
+    "basinAreaSqKm": 312812,
+    "mouth": "Bay of Bengal (splits into Gautami Godavari and Vasishta Godavari near Rajahmundry)",
+    "interStateSignificance": "Longest river of Peninsular India, often called 'Dakshin Ganga' or 'Vridha Ganga'.",
+    "examFacts": [
+      "Second longest river in India after the Ganga and the largest river basin in Peninsular India (nearly 9.5% of India's total geographical area).",
+      "Pranahita is the largest tributary of the Godavari, formed by the combined waters of the Wardha, Penganga, and Wainganga rivers.",
+      "Sir Arthur Cotton constructed the Dowleswaram Barrage across the Godavari in 1852, transforming the drought-prone delta into the fertile 'Rice Bowl of Andhra Pradesh'.",
+      "Polavaram National Irrigation Project in Andhra Pradesh is designed to provide inter-basin water transfer from Godavari to Krishna basin via the Polavaram Right Main Canal.",
+      "Kaleshwaram Project in Telangana is recognized as the world's largest multi-stage lift irrigation project on the Godavari River."
+    ]
+  },
+  {
+    "id": "krishna",
+    "name": "Krishna",
+    "lengthKm": 1400,
+    "origin": "Mahabaleshwar, Western Ghats, Maharashtra",
+    "sourceLocation": "Mahabaleshwar (elevation ~1,337 m)",
+    "elevationSourceM": 1337,
+    "statesCrossed": [
+      "Maharashtra",
+      "Karnataka",
+      "Telangana",
+      "Andhra Pradesh"
+    ],
+    "majorTributariesLeft": [
+      "Bhima (longest tributary)",
+      "Dindi",
+      "Musi (flows through Hyderabad)",
+      "Palleru",
+      "Muneru"
+    ],
+    "majorTributariesRight": [
+      "Koyna",
+      "Venna",
+      "Panchganga",
+      "Dudhganga",
+      "Ghataprabha",
+      "Malaprabha",
+      "Tungabhadra (largest tributary by discharge)"
+    ],
+    "directionOfFlow": "Eastward (Bay of Bengal)",
+    "majorDams": [
+      "Koyna Dam (Shivajisagar)",
+      "Almatti Dam (Lal Bahadur Shastri Sagar)",
+      "Narayanpur Dam",
+      "Jurala Dam",
+      "Srisailam Dam",
+      "Nagarjuna Sagar Dam",
+      "Prakasam Barrage (Vijayawada)"
+    ],
+    "importantCities": [
+      "Mahabaleshwar",
+      "Satara",
+      "Sangli",
+      "Bagalkot",
+      "Srisailam",
+      "Vijayawada"
+    ],
+    "basinAreaSqKm": 258948,
+    "mouth": "Bay of Bengal at Hamsaladeevi, Andhra Pradesh",
+    "interStateSignificance": "Second largest east-flowing peninsular river; subject of decades-long Krishna Water Disputes Tribunals (KWDT I & II).",
+    "examFacts": [
+      "Nagarjuna Sagar Dam on the Krishna River (border of Telangana and Andhra Pradesh) is one of the world's largest masonry dams.",
+      "Tungabhadra is the largest right-bank tributary of the Krishna, formed by the union of the Tunga and Bhadra rivers at Koodli near Shivamogga, Karnataka.",
+      "Prakasam Barrage at Vijayawada creates a massive road-cum-regulator across the Krishna delta.",
+      "The Koyna earthquake of 11 December 1967 (magnitude 6.3) is one of the world's classic examples of Reservoir-Induced Seismicity (RIS).",
+      "Musi River, on whose banks the historic city of Hyderabad was founded by Muhammad Quli Qutb Shah in 1591, is a left-bank tributary of the Krishna."
+    ]
+  },
+  {
+    "id": "kaveri",
+    "name": "Kaveri",
+    "lengthKm": 800,
+    "origin": "Talakaveri in Brahmagiri Range, Kodagu (Coorg), Karnataka",
+    "sourceLocation": "Talakaveri (elevation ~1,341 m)",
+    "elevationSourceM": 1341,
+    "statesCrossed": [
+      "Karnataka",
+      "Tamil Nadu",
+      "Kerala (basin)",
+      "Puducherry (Karaikal mouth)"
+    ],
+    "majorTributariesLeft": [
+      "Harangi",
+      "Hemavati",
+      "Shimsha",
+      "Arkavathi"
+    ],
+    "majorTributariesRight": [
+      "Lakshmantirtha",
+      "Kabbani (Kabini)",
+      "Suvarnavathi",
+      "Bhavani",
+      "Noyyal",
+      "Amaravathi"
+    ],
+    "directionOfFlow": "Eastward (Bay of Bengal)",
+    "majorDams": [
+      "Krishna Raja Sagara (KRS Dam, Mysuru)",
+      "Mettur Dam (Stanley Reservoir, Salem)",
+      "Grand Anicut (Kallanai - built by Karikala Chola)",
+      "Upper Anicut"
+    ],
+    "importantCities": [
+      "Madikeri",
+      "Mysuru",
+      "Srirangapatna",
+      "Erode",
+      "Tiruchirappalli",
+      "Thanjavur",
+      "Kumbakonam",
+      "Poompuhar"
+    ],
+    "basinAreaSqKm": 81155,
+    "mouth": "Bay of Bengal at Poompuhar (Kaveripoompattinam), Tamil Nadu",
+    "interStateSignificance": "Known as 'Ponni' in Tamil literature; subject of historic Kaveri Water Disputes Tribunal (CWDT) and Cauvery Water Management Authority (CWMA).",
+    "examFacts": [
+      "Unlike most peninsular rivers which are strictly seasonal, the Kaveri receives rainfall in both the South-West Monsoon (in upper Karnataka catchment) and the North-East Retreating Monsoon (in lower Tamil Nadu catchment), maintaining flow throughout most of the year.",
+      "Grand Anicut (Kallanai), constructed across the Kaveri by Chola King Karikala in the 2nd century CE, is one of the oldest functioning water-diversion dams in the world.",
+      "Shivanasamudra Falls on the Kaveri River in Mandya, Karnataka was the site of Asia's first major hydroelectric power station, established in 1902 to supply electricity to the Kolar Gold Fields (KGF).",
+      "The Kaveri forms three prominent river islands on its course: Srirangapatna, Shivanasamudra, and Srirangam, all hosting ancient Ranganathaswamy Vaishnavite temples.",
+      "Hogenakkal Falls on the Kaveri along the Karnataka-Tamil Nadu border is often referred to as the 'Niagara Falls of South India'."
+    ]
+  },
+  {
+    "id": "narmada",
+    "name": "Narmada",
+    "lengthKm": 1312,
+    "origin": "Amarkantak Plateau, Anuppur district, Madhya Pradesh",
+    "sourceLocation": "Narmada Kund, Amarkantak (elevation ~1,057 m)",
+    "elevationSourceM": 1057,
+    "statesCrossed": [
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Gujarat"
+    ],
+    "majorTributariesLeft": [
+      "Burhner",
+      "Banjar",
+      "Sher",
+      "Shakkar",
+      "Dudhi",
+      "Tawa (longest tributary)",
+      "Ganjal",
+      "Chhota Tawa"
+    ],
+    "majorTributariesRight": [
+      "Hiran",
+      "Barna",
+      "Choral",
+      "Man",
+      "Uri",
+      "Hathni",
+      "Orsang"
+    ],
+    "directionOfFlow": "Westward (Arabian Sea)",
+    "majorDams": [
+      "Bargi Dam",
+      "Indira Sagar Dam (largest reservoir in MP)",
+      "Omkareshwar Dam (with floating solar)",
+      "Maheshwar Dam",
+      "Sardar Sarovar Dam (Gujarat)"
+    ],
+    "importantCities": [
+      "Amarkantak",
+      "Mandla",
+      "Jabalpur",
+      "Hoshangabad (Narmadapuram)",
+      "Maheshwar",
+      "Omkareshwar",
+      "Bharuch"
+    ],
+    "basinAreaSqKm": 98796,
+    "mouth": "Gulf of Khambhat (Arabian Sea) near Bharuch",
+    "interStateSignificance": "Longest west-flowing peninsular river in India, flowing through a tectonic rift valley between Vindhya and Satpura ranges.",
+    "examFacts": [
+      "Flows westward through a structural rift valley fault between the Vindhya Range to the north and the Satpura Range to the south.",
+      "Dhuandhar Falls ('Smoke Cascade') and the Marble Rocks canyon at Bhedaghat near Jabalpur are iconic geological features on the upper Narmada.",
+      "Forms an estuary rather than a delta at its mouth near Bharuch due to steep gradient, rapid flow, and lack of extensive deltaic sediment deposition in the tidal rift zone.",
+      "Sardar Sarovar Dam at Kevadia in Gujarat is the centerpiece of the Narmada Valley Project and powers the massive Narmada Main Canal supplying water to Saurashtra, Kutch, and Rajasthan.",
+      "Narmada Parikrama is an ancient circumambulatory pilgrimage where devotees walk ~2,600 km along both banks from origin to mouth and back."
+    ]
+  },
+  {
+    "id": "tapi",
+    "name": "Tapi",
+    "lengthKm": 724,
+    "origin": "Multai in the Betul district, Satpura Range, Madhya Pradesh",
+    "sourceLocation": "Multai tank, Betul plateau (elevation ~752 m)",
+    "elevationSourceM": 752,
+    "statesCrossed": [
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Gujarat"
+    ],
+    "majorTributariesLeft": [
+      "Purna (largest tributary, draining Vidarbha)",
+      "Vaghur",
+      "Girna",
+      "Bori",
+      "Panjhra"
+    ],
+    "majorTributariesRight": [
+      "Vaki",
+      "Gomai",
+      "Arunavati",
+      "Aner"
+    ],
+    "directionOfFlow": "Westward (Arabian Sea)",
+    "majorDams": [
+      "Ukai Dam (Vallabh Sagar - 2nd largest reservoir in Gujarat)",
+      "Kakrapar Weir",
+      "Hathnur Dam (Maharashtra)"
+    ],
+    "importantCities": [
+      "Multai",
+      "Burhanpur",
+      "Bhusawal",
+      "Jalgaon",
+      "Surat"
+    ],
+    "basinAreaSqKm": 65145,
+    "mouth": "Gulf of Khambhat (Arabian Sea) near Surat (Dumas)",
+    "interStateSignificance": "Twin river to the Narmada, flowing almost parallel to it south of the Satpura Range in its own rift valley.",
+    "examFacts": [
+      "Often referred to as the 'Handmaid of the Narmada' because it flows westward in a parallel trough south of the Satpura Range.",
+      "Ukai Dam across the Tapi River in Tapi district, Gujarat features an enormous earth-cum-masonry dam with an installed capacity of 300 MW.",
+      "Kakrapar Atomic Power Station in Gujarat draws its cooling water from the Tapi River / Kakrapar reservoir system.",
+      "Surat, the global diamond cutting capital and historic textile port of the Mughal Empire, is situated on the lower course of the Tapi.",
+      "Burhanpur on the Tapi in Madhya Pradesh was the historic Mughal gateway to the Deccan and the original resting place of Mumtaz Mahal before her remains were transferred to the Taj Mahal."
+    ]
+  },
+  {
+    "id": "mahanadi",
+    "name": "Mahanadi",
+    "lengthKm": 851,
+    "origin": "Dhamtari district near Sihawa, Raipur hills, Chhattisgarh",
+    "sourceLocation": "Sihawa hills (elevation ~442 m)",
+    "elevationSourceM": 442,
+    "statesCrossed": [
+      "Chhattisgarh",
+      "Odisha",
+      "Jharkhand & Maharashtra (catchment)"
+    ],
+    "majorTributariesLeft": [
+      "Seonath (Shivnath - longest tributary)",
+      "Hasdeo",
+      "Mand",
+      "Ib"
+    ],
+    "majorTributariesRight": [
+      "Ong",
+      "Jonk",
+      "Tel (largest tributary by discharge)"
+    ],
+    "directionOfFlow": "Eastward (Bay of Bengal)",
+    "majorDams": [
+      "Hirakud Dam (longest earthen dam in the world)",
+      "Gangrel Dam (Ravishankar Sagar)",
+      "Hasdeo Bango Dam",
+      "Mahanadi Barrage (Jobra, Cuttack)"
+    ],
+    "importantCities": [
+      "Rajim",
+      "Sirpur",
+      "Sambalpur",
+      "Boudh",
+      "Subarnapur (Sonepur)",
+      "Cuttack"
+    ],
+    "basinAreaSqKm": 141589,
+    "mouth": "Bay of Bengal at False Point / Paradip, Odisha",
+    "interStateSignificance": "Lifeline of Odisha and Chhattisgarh; historically known as the 'Sorrow of Orissa' prior to Hirakud Dam construction.",
+    "examFacts": [
+      "Hirakud Dam built across the Mahanadi near Sambalpur, Odisha is one of the longest dams in the world (main dam 4.8 km, total dyke system 25.8 km).",
+      "Cuttack, the ancient millenary silver city of Odisha, sits on the spit of land formed by the Mahanadi and its southern distributary, the Kathajodi.",
+      "Mahanadi Delta is an intricate network of distributaries (Kathajodi, Kuakhai, Daya, Bhargavi) draining into the Bay of Bengal and feeding the northern rim of Chilika Lake.",
+      "Rajim at the confluence of Mahanadi, Pairi, and Sondhur rivers in Chhattisgarh is celebrated as the 'Prayag of Chhattisgarh' and hosts the Rajim Kumbh Mela.",
+      "The Mahanadi Water Disputes Tribunal was constituted by the Central Government in March 2018 under the Inter-State River Water Disputes Act, 1956 to adjudicate water-sharing disputes between Odisha and Chhattisgarh."
+    ]
+  }
+]

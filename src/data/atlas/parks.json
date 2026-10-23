@@ -1,0 +1,177 @@
+[
+  {
+    "id": "jim_corbett",
+    "name": "Jim Corbett National Park",
+    "category": "National Park",
+    "state": "Uttarakhand",
+    "district": "Nainital / Pauri Garhwal",
+    "coordinates": [
+      78.77,
+      29.53
+    ],
+    "keySpecies": [
+      "Bengal Tiger",
+      "Asian Elephant",
+      "Leopard",
+      "Gharial",
+      "Hog Deer"
+    ],
+    "formationYear": 1936,
+    "areaSqKm": 520.8,
+    "examFacts": [
+      "Oldest national park in India, established in 1936 as Hailey National Park, later renamed Ramganga NP, and finally Corbett NP in 1957.",
+      "Birthplace of Project Tiger: launched here on 1 April 1973 by Prime Minister Indira Gandhi.",
+      "Ramganga River flows through the park, creating the iconic Patli Dun valley.",
+      "Possesses the highest tiger population density of any protected area in the world.",
+      "Dhikala tourism zone is the central grassland valley famous for herds of wild elephants and tigers."
+    ],
+    "px": 418.6,
+    "py": 367.4
+  },
+  {
+    "id": "kaziranga",
+    "name": "Kaziranga National Park",
+    "category": "National Park",
+    "state": "Assam",
+    "district": "Golaghat / Nagaon / Sonitpur",
+    "coordinates": [
+      93.17,
+      26.57
+    ],
+    "keySpecies": [
+      "Great Indian One-horned Rhinoceros",
+      "Wild Water Buffalo",
+      "Swamp Deer (Barasingha)",
+      "Asian Elephant",
+      "Bengal Tiger"
+    ],
+    "formationYear": 1974,
+    "areaSqKm": 858.98,
+    "unescoStatus": "UNESCO World Heritage Site (1985)",
+    "examFacts": [
+      "Hosts approximately two-thirds of the world's total surviving population of the Great Indian One-horned Rhinoceros (~2,600+ rhinos).",
+      "Home to the 'Big Five' of Kaziranga: Rhinoceros, Royal Bengal Tiger, Asian Elephant, Wild Water Buffalo, and Eastern Swamp Deer.",
+      "Recognized as an Important Bird Area (IBA) by BirdLife International.",
+      "Situated on the southern floodplains of the Brahmaputra River, subject to annual monsoon inundation that replenishes nutrients.",
+      "Inscribed as a UNESCO World Heritage Site in 1985 and declared a Tiger Reserve in 2006."
+    ],
+    "px": 732.8,
+    "py": 440.6
+  },
+  {
+    "id": "gir_np",
+    "name": "Gir National Park and Wildlife Sanctuary",
+    "category": "National Park",
+    "state": "Gujarat",
+    "district": "Junagadh / Gir Somnath / Amreli",
+    "coordinates": [
+      70.79,
+      21.12
+    ],
+    "keySpecies": [
+      "Asiatic Lion (Panthera leo persica)",
+      "Leopard",
+      "Chital",
+      "Chinkara",
+      "Striped Hyena"
+    ],
+    "formationYear": 1965,
+    "areaSqKm": 1412,
+    "examFacts": [
+      "Sole natural wild habitat of the Asiatic Lion (Panthera leo persica) in the entire world.",
+      "Saved from near-extinction by the conservation efforts of the Nawab of Junagadh, Muhammad Rasul Khanji, in the early 20th century when numbers dipped below 20.",
+      "Drained by seven perennial rivers: Hiran, Saraswati, Datardi, Shingoda, Machhundri, Raval, and Shetrunji.",
+      "Maldhari pastoralist nomadic community has coexisted inside Gir forests with lions for centuries.",
+      "The Supreme Court of India in 2013 ordered the translocation of a second population of Asiatic lions to Kuno Wildlife Sanctuary in Madhya Pradesh to prevent catastrophic epidemic extinction."
+    ],
+    "px": 244.5,
+    "py": 570.6
+  },
+  {
+    "id": "sundarbans_np",
+    "name": "Sundarbans National Park",
+    "category": "National Park",
+    "state": "West Bengal",
+    "district": "South 24 Parganas",
+    "coordinates": [
+      88.85,
+      21.95
+    ],
+    "keySpecies": [
+      "Royal Bengal Tiger",
+      "Estuarine Saltwater Crocodile",
+      "Gangetic Dolphin",
+      "Olive Ridley Turtle",
+      "Batagur baska (Northern River Terrapin)"
+    ],
+    "formationYear": 1984,
+    "areaSqKm": 1330.1,
+    "unescoStatus": "UNESCO World Heritage Site (1987) & Ramsar Wetland (2019)",
+    "examFacts": [
+      "World's only mangrove forest inhabited by tigers; Sundarbans tigers are uniquely adapted to swimming across broad tidal channels and drinking brackish water.",
+      "Named after the dominant mangrove tree species 'Sundari' (Heritiera fomes), noted for specialized pneumatophore roots (blind breathing roots).",
+      "Largest Ramsar Wetland site in India (4,230 sq km total Indian Sundarbans).",
+      "Forms the lower delta of the Ganga, Brahmaputra, and Meghna rivers across India and Bangladesh.",
+      "One of the original nine Project Tiger reserves declared in 1973."
+    ],
+    "px": 638.5,
+    "py": 551.2
+  },
+  {
+    "id": "keibul_lamjao",
+    "name": "Keibul Lamjao National Park",
+    "category": "National Park",
+    "state": "Manipur",
+    "district": "Bishnupur",
+    "coordinates": [
+      93.85,
+      24.5
+    ],
+    "keySpecies": [
+      "Sangai / Brow-antlered Deer",
+      "Hog Deer",
+      "Otter",
+      "Migratory Waterfowl"
+    ],
+    "formationYear": 1977,
+    "areaSqKm": 40,
+    "examFacts": [
+      "World's only floating national park, located on the southern fringes of Loktak Lake.",
+      "Exclusive wild refuge of the critically endangered Eld's deer subspecies Sangai (Rucervus eldii eldii - State Animal of Manipur).",
+      "Consists of floating biomass mats called Phumdis (up to 4\u20135 feet thick) that float during the wet season and rest on the lake bed during the dry winter.",
+      "Sangai deer has evolved specialized splayed hooves adapted to walking on the spongy, floating phumdis without sinking.",
+      "Threatened by the permanent high water levels maintained by the Ithai Barrage."
+    ],
+    "px": 747.6,
+    "py": 490.6
+  },
+  {
+    "id": "hemis_np",
+    "name": "Hemis National Park",
+    "category": "National Park",
+    "state": "Ladakh",
+    "district": "Leh",
+    "coordinates": [
+      77.37,
+      33.98
+    ],
+    "keySpecies": [
+      "Snow Leopard (Panthera uncia)",
+      "Tibetan Wolf",
+      "Bharal / Blue Sheep",
+      "Ladakh Urial (Shapo)",
+      "Golden Eagle"
+    ],
+    "formationYear": 1981,
+    "areaSqKm": 4400,
+    "examFacts": [
+      "Largest national park in India by total area (~4,400 sq km).",
+      "Globally celebrated as the 'Snow Leopard Capital of the World', harboring the highest density of snow leopards in any protected area.",
+      "Bounded by the Indus River to the north and covers the catchments of Markha, Rumbak, and Sumdah streams.",
+      "Contains the historic 17th-century Hemis Gompa (Drukpa Kagyu lineage), Ladakh's largest and wealthiest monastery.",
+      "Entirely situated above 3,300 meters altitude in the Trans-Himalayan cold desert."
+    ],
+    "px": 388.1,
+    "py": 253.2
+  }
+]

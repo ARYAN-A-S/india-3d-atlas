@@ -1,0 +1,202 @@
+[
+  {
+    "id": "jnpt",
+    "name": "Jawaharlal Nehru Port (JNPT / Nhava Sheva)",
+    "category": "Major Seaport",
+    "type": "Container Port",
+    "state": "Maharashtra",
+    "district": "Raigad (Navi Mumbai)",
+    "coordinates": [
+      72.95,
+      18.95
+    ],
+    "significance": "Largest container-handling port in India, handling over 50% of the nation's containerized cargo.",
+    "examFacts": [
+      "Commissioned in 1989 to decongest the older Mumbai Port; India's premier container gateway.",
+      "Terminal station of the Western Dedicated Freight Corridor (WDFC) connecting Dadri (UP) to JNPT.",
+      "India's first 100% landlord major port where all berths are operated under public-private partnerships (PPP)."
+    ],
+    "px": 291.6,
+    "py": 621
+  },
+  {
+    "id": "kandla",
+    "name": "Deendayal Port (Kandla)",
+    "category": "Major Seaport",
+    "type": "Tidal Port / Bulk Cargo",
+    "state": "Gujarat",
+    "district": "Kutch",
+    "coordinates": [
+      70.22,
+      23.01
+    ],
+    "significance": "India's largest port by cargo volume handled; constructed as a major port post-1947 to compensate for the loss of Karachi Port.",
+    "examFacts": [
+      "Built in the 1950s after the Partition of India when Karachi Port went to Pakistan.",
+      "Renamed as Deendayal Port in 2017; handles the largest volume of dry cargo and crude oil in India.",
+      "India's first Special Economic Zone (EPZ - Export Processing Zone) was established here in 1965."
+    ],
+    "px": 232,
+    "py": 526.2
+  },
+  {
+    "id": "visakhapatnam_port",
+    "name": "Visakhapatnam Port",
+    "category": "Major Seaport",
+    "type": "Natural Deep-Water Harbour",
+    "state": "Andhra Pradesh",
+    "district": "Visakhapatnam",
+    "coordinates": [
+      83.3,
+      17.7
+    ],
+    "significance": "Deepest major port on the eastern coast of India, sheltered by the famous Dolphin's Nose promontory.",
+    "examFacts": [
+      "Only natural harbour on the Coromandel / Eastern Coast of India; sheltered from Bay of Bengal cyclones by Dolphin's Nose hill.",
+      "Headquarters of the Eastern Naval Command of the Indian Navy and Hindustan Shipyard.",
+      "Primary export outlet for Bailadila iron ore destined for Japan and South Korea."
+    ],
+    "px": 517.4,
+    "py": 649.8
+  },
+  {
+    "id": "chennai_port",
+    "name": "Chennai Port (Madras Port)",
+    "category": "Major Seaport",
+    "type": "Artificial Harbour",
+    "state": "Tamil Nadu",
+    "district": "Chennai",
+    "coordinates": [
+      80.29,
+      13.08
+    ],
+    "significance": "Second oldest major port in India after Kolkata, established in 1881; major automobile export hub ('Detroit of India').",
+    "examFacts": [
+      "Entirely artificial harbour enclosed by breakwaters on an open surf-beaten coastline.",
+      "Primary automobile and rolling stock export hub of India (Hyundai, Ford, Renault-Nissan, Royal Enfield).",
+      "Connected via the Chennai-Bengaluru-Chitradurga industrial corridor."
+    ],
+    "px": 451.8,
+    "py": 754.3
+  },
+  {
+    "id": "paradip_port",
+    "name": "Paradip Port",
+    "category": "Major Seaport",
+    "type": "Deep-Water Artificial Port",
+    "state": "Odisha",
+    "district": "Jagatsinghpur",
+    "coordinates": [
+      86.67,
+      20.26
+    ],
+    "significance": "Major port dedicated to bulk mineral exports (iron ore, coal, aluminium) from the mineral-rich hinterland of Odisha and Jharkhand.",
+    "examFacts": [
+      "First major port commissioned on the East Coast of independent India, inaugurated by Prime Minister Jawaharlal Nehru in 1962.",
+      "Located at the confluence of the Mahanadi River and the Bay of Bengal.",
+      "Handles huge quantities of thermal coal shipped to southern Indian power plants (coastal shipping corridor)."
+    ],
+    "px": 591,
+    "py": 590.7
+  },
+  {
+    "id": "cochin_port",
+    "name": "Cochin Port (Kochi Port)",
+    "category": "Major Seaport",
+    "type": "Natural All-Weather Lagoon Port",
+    "state": "Kerala",
+    "district": "Ernakulam",
+    "coordinates": [
+      76.27,
+      9.96
+    ],
+    "significance": "Situated on Willingdon Island and Vallarpadam within the Vembanad Lake lagoon; historic spice trade capital.",
+    "examFacts": [
+      "Vallarpadam International Container Transshipment Terminal (ICTT) is India's first dedicated transshipment port terminal.",
+      "Strategic location on the main East-West international maritime shipping route connecting Europe/Middle East to East Asia.",
+      "Home to Cochin Shipyard Limited, builder of India's first indigenous aircraft carrier INS Vikrant."
+    ],
+    "px": 364.1,
+    "py": 823.8
+  },
+  {
+    "id": "mormugao_port",
+    "name": "Mormugao Port",
+    "category": "Major Seaport",
+    "type": "Natural Estuarine Harbour",
+    "state": "Goa",
+    "district": "South Goa",
+    "coordinates": [
+      73.8,
+      15.42
+    ],
+    "significance": "Premier iron ore export terminal on the mouth of the Zuari River in Goa.",
+    "examFacts": [
+      "Granted major port status in 1963 following the liberation of Goa in Operation Vijay (1961).",
+      "Located at the mouth of the Zuari River; river barges transport iron ore directly from interior mines to port berths.",
+      "One of the oldest modern ports in western India, connected by rail since the Portuguese era (1888)."
+    ],
+    "px": 310.2,
+    "py": 701.7
+  },
+  {
+    "id": "kolkata_port",
+    "name": "Syama Prasad Mookerjee Port (Kolkata / Haldia)",
+    "category": "Major Seaport",
+    "type": "Riverine Port",
+    "state": "West Bengal",
+    "district": "Kolkata / Purba Medinipur",
+    "coordinates": [
+      88.31,
+      22.55
+    ],
+    "significance": "Only riverine major port in India, located on the Hooghly River ~200 km from the Bay of Bengal.",
+    "examFacts": [
+      "India's oldest operating major port, established in 1870 by the British East India Company / Calcutta Port Trust.",
+      "Comprises two dock systems: Kolkata Dock System (riverine) and Haldia Dock Complex (deep-water downstream).",
+      "Faces severe siltation requiring continuous maintenance dredging and water discharge from the Farakka Barrage on the Ganga."
+    ],
+    "px": 626.8,
+    "py": 537
+  },
+  {
+    "id": "tuticorin_port",
+    "name": "V.O. Chidambaranar Port (Tuticorin)",
+    "category": "Major Seaport",
+    "type": "Artificial Deep-Sea Port",
+    "state": "Tamil Nadu",
+    "district": "Thoothukudi",
+    "coordinates": [
+      78.18,
+      8.75
+    ],
+    "significance": "Strategic southern port in the Gulf of Mannar, named after celebrated freedom fighter V.O. Chidambaram Pillai.",
+    "examFacts": [
+      "Named after freedom fighter V.O. Chidambaram Pillai, who founded the historic Swadeshi Steam Navigation Company in 1906.",
+      "All-weather port located in the rain-shadow region of the Western Ghats, functioning uninterrupted during cyclones.",
+      "Closest Indian port to the international sea routes passing through Sri Lanka (Colombo)."
+    ],
+    "px": 405.7,
+    "py": 850.5
+  },
+  {
+    "id": "port_blair",
+    "name": "Port Blair Port (Sri Vijaya Puram)",
+    "category": "Major Seaport",
+    "type": "Island Maritime Gateway",
+    "state": "Andaman and Nicobar",
+    "district": "South Andaman",
+    "coordinates": [
+      92.74,
+      11.67
+    ],
+    "significance": "India's 13th major port, guarding the Malacca Strait and Indian Ocean SLOCs (Sea Lines of Communication).",
+    "examFacts": [
+      "Declared India's 13th Major Port in 2010; capital renamed as Sri Vijaya Puram in 2024.",
+      "Headquarters of India's first and only Tri-Services Command: the Andaman and Nicobar Command (ANC).",
+      "Overlooks the Six Degree Channel and Ten Degree Channel, vital international tanker choke points."
+    ],
+    "px": 723.4,
+    "py": 785.8
+  }
+]

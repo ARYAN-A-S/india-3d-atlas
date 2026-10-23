@@ -1,0 +1,72 @@
+[
+  {
+    "id": "constitution_making",
+    "title": "Making of the Indian Constitution",
+    "articles": [
+      "Article 395",
+      "Preamble"
+    ],
+    "schedules": [
+      "All 12 Schedules"
+    ],
+    "summary": "The Constituent Assembly was constituted in November 1946 under the Cabinet Mission Plan. Dr. Sachchidananda Sinha served as temporary President; Dr. Rajendra Prasad was elected permanent President. Dr. B.R. Ambedkar chaired the 7-member Drafting Committee.",
+    "examFacts": [
+      "Took 2 years, 11 months, and 18 days to complete across 11 sessions.",
+      "Adopted on 26 November 1949 (celebrated as National Constitution Day / Samvidhan Divas) and came into full legal effect on 26 January 1950 (commemorating the Purna Swaraj declaration of 26 Jan 1930).",
+      "Originally contained a Preamble, 395 Articles in 22 Parts, and 8 Schedules (expanded today to over 448 Articles in 25 Parts and 12 Schedules).",
+      "Handwritten and calligraphed in English by Prem Behari Narain Raizada and illustrated with indigenous miniature paintings by Nandalal Bose and Beohar Rammanohar Sinha of Santiniketan.",
+      "The Elephant was adopted as the official emblem/seal of the Constituent Assembly."
+    ]
+  },
+  {
+    "id": "fundamental_rights",
+    "title": "Fundamental Rights (Part III, Articles 12\u201335)",
+    "articles": [
+      "Articles 12 to 35"
+    ],
+    "schedules": [],
+    "summary": "Described as the 'Magna Carta of India'. Enforceable by courts through constitutional prerogative writs issued under Article 32 (Supreme Court) and Article 226 (High Courts).",
+    "examFacts": [
+      "Six Fundamental Rights guaranteed: Right to Equality (Art 14\u201318), Right to Freedom (Art 19\u201322), Right against Exploitation (Art 23\u201324), Right to Freedom of Religion (Art 25\u201328), Cultural and Educational Rights (Art 29\u201330), and Right to Constitutional Remedies (Art 32).",
+      "Right to Property (originally Art 31) was deleted from Part III by the 44th Constitutional Amendment Act, 1978 and made a legal right under Article 300A in Part XII.",
+      "Dr. B.R. Ambedkar declared Article 32 (Right to Constitutional Remedies) as the 'very Soul of the Constitution and the very Heart of it'.",
+      "Five Constitutional Writs: Habeas Corpus ('To have the body of'), Mandamus ('We command'), Prohibition ('To forbid'), Certiorari ('To be certified'), and Quo-Warranto ('By what authority').",
+      "Articles 20 (protection against ex-post facto laws, double jeopardy, self-incrimination) and 21 (right to life and personal liberty) cannot be suspended even during a National Emergency declared under Article 352 (amended by 44th CAA, 1978)."
+    ]
+  },
+  {
+    "id": "dpsp",
+    "title": "Directive Principles of State Policy (Part IV, Articles 36\u201351)",
+    "articles": [
+      "Articles 36 to 51"
+    ],
+    "schedules": [],
+    "summary": "Non-justiciable ideals borrowed from the Irish Constitution of 1937 aiming to establish a socio-economic Welfare State rather than merely a police state.",
+    "examFacts": [
+      "Dr. Ambedkar described DPSP as 'Novel Features' of the Constitution; Granville Austin described Fundamental Rights and DPSP together as the 'Conscience of the Constitution'.",
+      "Classified broadly into three ideological categories: Socialistic (Art 38, 39, 39A, 41, 42, 43), Gandhian (Art 40, 43, 43B, 46, 47, 48), and Liberal-Intellectual (Art 44, 45, 48, 48A, 49, 50, 51).",
+      "Article 40 directs the state to organize Village Panchayats as units of self-government (given constitutional status by 73rd CAA 1992).",
+      "Article 44 calls for a Uniform Civil Code (UCC) for all citizens throughout India.",
+      "Article 50 directs the separation of the Judiciary from the Executive in the public services of the State."
+    ]
+  },
+  {
+    "id": "panchayati_raj",
+    "title": "Panchayati Raj & Local Self-Government (73rd & 74th Amendments)",
+    "articles": [
+      "Articles 243 to 243ZG"
+    ],
+    "schedules": [
+      "11th Schedule (29 subjects)",
+      "12th Schedule (18 subjects)"
+    ],
+    "summary": "Constitutionalization of the three-tier Panchayati Raj system (Gram, Block, District) and Municipal bodies, establishing democratic decentralization.",
+    "examFacts": [
+      "Balwant Rai Mehta Committee (1957) originally recommended a three-tier Panchayati Raj system; Rajasthan was the first state to inaugurate Panchayati Raj at Nagaur on 2 October 1959.",
+      "73rd Constitutional Amendment Act, 1992 inserted Part IX ('The Panchayats') and the Eleventh Schedule containing 29 functional subjects (came into effect on 24 April 1993, celebrated as National Panchayati Raj Day).",
+      "74th Constitutional Amendment Act, 1992 inserted Part IXA ('The Municipalities') and the Twelfth Schedule containing 18 functional subjects.",
+      "Article 243D mandates minimum 1/3rd (33.3%) reservation of seats and chairpersons for women across all tiers (many states have raised this to 50%).",
+      "Article 243K establishes an independent State Election Commission to conduct local body polls, and Article 243I establishes a State Finance Commission every 5 years to review financial devolution."
+    ]
+  }
+]

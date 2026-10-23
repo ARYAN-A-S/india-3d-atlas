@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc1",
+    "topic": "Physical Geography",
+    "front": "What are the three longitudinal parallel ranges of the Himalayas?",
+    "back": "1. Greater Himalayas (Himadri) - average elevation 6,000 m\n2. Lesser Himalayas (Himachal) - 3,700 to 4,500 m\n3. Outer Himalayas (Shivaliks) - 900 to 1,100 m",
+    "examTag": "All Exams",
+    "hint": "Himadri, Himachal, Shivalik"
+  },
+  {
+    "id": "fc2",
+    "topic": "River Systems",
+    "front": "Which are the only two major west-flowing Peninsular rivers that flow through rift valleys?",
+    "back": "Narmada and Tapi (Tapti). Both flow through fault-formed grabens/rift valleys between the Vindhya and Satpura ranges and do not form deltas, but estuaries at their mouths.",
+    "examTag": "UPSC",
+    "hint": "Between Vindhya and Satpura"
+  },
+  {
+    "id": "fc3",
+    "topic": "Environment & Ramsar",
+    "front": "Which was the first wetland of India designated under the Ramsar Convention?",
+    "back": "Chilika Lake in Odisha (designated on 1 October 1981, alongside Keoladeo National Park in Rajasthan). Chilika was also successfully removed from the Montreux Record in 2002.",
+    "examTag": "State PSC",
+    "hint": "A brackish lagoon in eastern India"
+  },
+  {
+    "id": "fc4",
+    "topic": "Indian History",
+    "front": "What was the Tinkathia system opposed by Mahatma Gandhi in Champaran (1917)?",
+    "back": "A colonial agrarian system in Bihar under which European indigo planters legally compelled tenant farmers (ryots) to cultivate indigo on 3/20th of their total landholdings.",
+    "examTag": "All Exams",
+    "hint": "3 out of 20 parts"
+  },
+  {
+    "id": "fc5",
+    "topic": "Indian Polity",
+    "front": "What did Dr. B.R. Ambedkar describe as the 'Heart and Soul' of the Indian Constitution?",
+    "back": "Article 32: Right to Constitutional Remedies, which empowers citizens to move the Supreme Court directly for the enforcement of Fundamental Rights through five prerogative writs.",
+    "examTag": "UPSC",
+    "hint": "Article 32"
+  },
+  {
+    "id": "fc6",
+    "topic": "Economy & Minerals",
+    "front": "Which state and district is the sole active commercial producer of diamonds in India?",
+    "back": "Madhya Pradesh (Panna district). The Majhgawan mine is operated by the National Mineral Development Corporation (NMDC).",
+    "examTag": "SSC",
+    "hint": "Panna National Park vicinity"
+  }
+]

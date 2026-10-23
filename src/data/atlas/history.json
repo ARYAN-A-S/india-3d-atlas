@@ -1,0 +1,212 @@
+[
+  {
+    "id": "lothal",
+    "name": "Lothal (Harappan Port City)",
+    "period": "Ancient",
+    "yearPeriod": "c. 2400 BCE \u2013 1900 BCE",
+    "state": "Gujarat",
+    "coordinates": [
+      72.25,
+      22.52
+    ],
+    "associatedPersonalities": [
+      "S. R. Rao (excavator, 1954-58)"
+    ],
+    "causesConsequences": "Thriving international seaport of the Indus Valley Civilization connected to the Gulf of Khambhat via the ancient Bhogavo and Sabarmati river courses.",
+    "examFacts": [
+      "World's earliest known tidal dockyard, engineered with sluice gates to lock water levels during low tide.",
+      "Discovered by archaeologist S. R. Rao in 1954.",
+      "Evidence of double burial (male and female buried together in a single grave).",
+      "Discovery of Persian Gulf button seal confirming direct overseas maritime commerce with Mesopotamia (Dilmun and Meluhha).",
+      "National Maritime Heritage Complex (NMHC) is currently being developed here under the Sagarmala programme."
+    ],
+    "px": 276.4,
+    "py": 537.7
+  },
+  {
+    "id": "dholavira",
+    "name": "Dholavira: Harappan Metropolis",
+    "period": "Ancient",
+    "yearPeriod": "c. 3000 BCE \u2013 1500 BCE",
+    "state": "Gujarat",
+    "coordinates": [
+      70.22,
+      23.88
+    ],
+    "associatedPersonalities": [
+      "J. P. Joshi (discovered 1968)",
+      "R. S. Bisht (excavated 1990)"
+    ],
+    "causesConsequences": "Sophisticated fortified Harappan island metropolis on Khadir Bet in the Great Rann of Kutch.",
+    "examFacts": [
+      "Inscribed as India's 40th UNESCO World Heritage Site in July 2021 (first Harappan site in India to receive this status).",
+      "Features unique tripartite city planning: Citadel (Castle and Bailey), Middle Town, and Lower Town (unlike standard bipartite Harappan cities).",
+      "World-renowned for its monumental water management system, comprising 16 interconnected cascading rock-cut reservoirs impounding water from the seasonal Manhar and Mansar streams.",
+      "Discovery of the famous ten-character 'Dholavira Signboard' written in Indus script using white gypsum crystalline tiles.",
+      "Extensive use of dressed stone masonry in fortification walls, contrasting with the baked mud-brick architecture of Mohenjo-daro and Harappa."
+    ],
+    "px": 232.1,
+    "py": 505.5
+  },
+  {
+    "id": "sarnath",
+    "name": "Sarnath (Isipatana / Deer Park)",
+    "period": "Ancient",
+    "yearPeriod": "c. 528 BCE onwards (Mauryan c. 250 BCE)",
+    "state": "Uttar Pradesh",
+    "coordinates": [
+      83.02,
+      25.38
+    ],
+    "associatedPersonalities": [
+      "Gautama Buddha",
+      "Emperor Ashoka"
+    ],
+    "causesConsequences": "Site of Buddha's First Sermon (Dharmachakra Pravartana) following his enlightenment at Bodh Gaya.",
+    "examFacts": [
+      "Site of Gautama Buddha's first sermon (Dharmachakra Pravartana Sutta - 'Turning the Wheel of the Law') delivered to the five ascetics (Pancha Vaggiya).",
+      "Lion Capital of Ashoka excavated here (featuring four Asiatic lions standing back to back above an abacus with wheel, bull, horse, lion, and elephant) was adopted as the National Emblem of India on 26 January 1950.",
+      "The 24-spoke Ashoka Chakra from its base adorns the center of India's National Flag.",
+      "Features the monumental Dhamek Stupa (rising 43.6 meters) and Chaukhandi Stupa.",
+      "Chinese pilgrim Xuanzang visited Sarnath in 640 CE, recording over 1,500 monks living in the Mahavihara."
+    ],
+    "px": 511.3,
+    "py": 469.5
+  },
+  {
+    "id": "nalanda",
+    "name": "Nalanda Mahavihara",
+    "period": "Ancient",
+    "yearPeriod": "5th century CE \u2013 1200 CE",
+    "state": "Bihar",
+    "coordinates": [
+      85.44,
+      25.13
+    ],
+    "associatedPersonalities": [
+      "Kumaragupta I (founder)",
+      "Harshavardhana",
+      "Xuanzang (Hiuen Tsang)",
+      "Yijing",
+      "Dharmapala",
+      "Bakhtiyar Khilji"
+    ],
+    "causesConsequences": "World's foremost ancient residential monastic university, educating over 10,000 international students until destroyed by Bakhtiyar Khilji in c. 1193 CE.",
+    "examFacts": [
+      "Founded under Gupta Emperor Kumaragupta I in the early 5th century CE and patronized by Emperor Harshavardhana and Pala kings.",
+      "Chinese Buddhist monk Xuanzang studied here for several years under Abbot Shilabhadra in the 7th century CE.",
+      "Celebrated for its monumental multi-storeyed library complex known as Dharmaganja, comprising three soaring buildings: Ratnasagara, Ratnodadhi, and Ratnaranjaka.",
+      "Inscribed as a UNESCO World Heritage Site in 2016.",
+      "Revived in modern times as an international university under the Nalanda University Act, 2010."
+    ],
+    "px": 564.1,
+    "py": 475.5
+  },
+  {
+    "id": "champaran",
+    "name": "Champaran (Satyagraha 1917)",
+    "period": "Modern (Freedom Movement)",
+    "yearPeriod": "April 1917",
+    "state": "Bihar",
+    "coordinates": [
+      84.99,
+      26.8
+    ],
+    "associatedPersonalities": [
+      "Mahatma Gandhi",
+      "Raj Kumar Shukla",
+      "Dr. Rajendra Prasad",
+      "J. B. Kripalani",
+      "Anugrah Narayan Sinha"
+    ],
+    "causesConsequences": "Mahatma Gandhi's first civil disobedience movement in India, successfully abolishing the exploitative European planter Tinkathia system.",
+    "examFacts": [
+      "Mahatma Gandhi's first Satyagraha / Civil Disobedience experiment on Indian soil after returning from South Africa in 1915.",
+      "Invited to Champaran by local indigo farmer Raj Kumar Shukla during the Lucknow Congress session of December 1916.",
+      "Opposed the Tinkathia system, where European planters forcibly bound ryots to cultivate indigo on 3/20th of their best agricultural land.",
+      "The Government appointed the Champaran Agrarian Enquiry Committee with Gandhi as a member, leading to the Champaran Agrarian Act of 1918 abolishing Tinkathia.",
+      "Rabindranath Tagore is believed to have bestowed the title 'Mahatma' upon Gandhi during the Champaran struggle."
+    ],
+    "px": 554.3,
+    "py": 435.0
+  },
+  {
+    "id": "dandi",
+    "name": "Dandi (Salt Satyagraha 1930)",
+    "period": "Modern (Freedom Movement)",
+    "yearPeriod": "12 March \u2013 6 April 1930",
+    "state": "Gujarat",
+    "coordinates": [
+      72.79,
+      20.89
+    ],
+    "associatedPersonalities": [
+      "Mahatma Gandhi",
+      "Sarojini Naidu",
+      "78 chosen Satyagrahis"
+    ],
+    "causesConsequences": "Inauguration of the nationwide Civil Disobedience Movement against the British colonial salt tax monopoly.",
+    "examFacts": [
+      "The historic Dandi Salt March commenced from Sabarmati Ashram, Ahmedabad on 12 March 1930 and reached the coastal village of Dandi in Navsari district on 5 April 1930 (covering 240 miles / 385 km in 24 days).",
+      "On 6 April 1930, Gandhi picked up a handful of natural salt from the mudflats, symbolically breaking the British Salt Monopoly and inaugurating the nationwide Civil Disobedience Movement.",
+      "Followed by the historic Dharasana Salt Raid led by Sarojini Naidu, Imam Saheb, and Manilal Gandhi, immortalized in reporting by American journalist Webb Miller.",
+      "Led directly to the Gandhi-Irwin Pact of 5 March 1931 and Gandhi's attendance at the Second Round Table Conference in London.",
+      "National Salt Satyagraha Memorial is located at Dandi, inaugurated in 2019."
+    ],
+    "px": 288.2,
+    "py": 576.0
+  },
+  {
+    "id": "jallianwala_bagh",
+    "name": "Jallianwala Bagh (1919 Massacre)",
+    "period": "Modern (Freedom Movement)",
+    "yearPeriod": "13 April 1919 (Baisakhi)",
+    "state": "Punjab",
+    "coordinates": [
+      74.88,
+      31.62
+    ],
+    "associatedPersonalities": [
+      "Colonel Reginald Dyer",
+      "Michael O'Dwyer",
+      "Dr. Saifuddin Kitchlew",
+      "Dr. Satyapal",
+      "Udham Singh"
+    ],
+    "causesConsequences": "Brutal firing on peaceful civilians protesting the Rowlatt Act; decisive turning point alienating Indian public opinion from British rule.",
+    "examFacts": [
+      "On 13 April 1919 (Baisakhi Day), thousands gathered at Jallianwala Bagh in Amritsar to celebrate the harvest and peacefully protest the arrest of leaders Dr. Saifuddin Kitchlew and Dr. Satyapal under the draconian Rowlatt Act (Anarchical and Revolutionary Crimes Act of 1919).",
+      "Brigadier-General Reginald Dyer blocked the sole narrow exit with troops and ordered firing without warning for 10 minutes until ammunition was exhausted, killing hundreds.",
+      "Rabindranath Tagore renounced his British Knighthood in protest, writing a fiery letter to Viceroy Lord Chelmsford.",
+      "Mahatma Gandhi returned his Kaiser-i-Hind gold medal and launched the nationwide Non-Cooperation Movement in 1920.",
+      "The Hunter Commission (Disorders Inquiry Committee) was appointed to investigate the tragedy; Shaheed Udham Singh assassinated former Punjab Lieutenant Governor Michael O'Dwyer in London in 1940 to avenge the massacre."
+    ],
+    "px": 333.8,
+    "py": 314.4
+  },
+  {
+    "id": "chauri_chaura",
+    "name": "Chauri Chaura (1922 Incident)",
+    "period": "Modern (Freedom Movement)",
+    "yearPeriod": "4 February 1922",
+    "state": "Uttar Pradesh",
+    "coordinates": [
+      83.59,
+      26.65
+    ],
+    "associatedPersonalities": [
+      "Mahatma Gandhi",
+      "Bhagwan Ahir"
+    ],
+    "causesConsequences": "Violent clash between protesters and police resulting in the burning of a police station; prompted Gandhi to unilaterally withdraw the Non-Cooperation Movement.",
+    "examFacts": [
+      "On 4 February 1922, a procession of Non-Cooperation volunteers clashed with police at Chauri Chaura market in Gorakhpur district, Uttar Pradesh.",
+      "Protesters set fire to the police station, killing 22 policemen inside.",
+      "Stunned by the departure from non-violence (Ahimsa), Mahatma Gandhi declared that India was not yet ready for mass civil disobedience and unilaterally halted the Non-Cooperation Movement on 12 February 1922 via the Bardoli Resolution.",
+      "The withdrawal caused widespread shock and debate among national leaders including Motilal Nehru, C.R. Das, Subhas Chandra Bose, and Jawaharlal Nehru.",
+      "Prompted Motilal Nehru and C.R. Das to form the Swaraj Party in January 1923 to contest legislative councils."
+    ],
+    "px": 523.8,
+    "py": 438.6
+  }
+]

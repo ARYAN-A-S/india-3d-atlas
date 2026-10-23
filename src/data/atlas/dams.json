@@ -1,0 +1,152 @@
+[
+  {
+    "id": "bhakra_nangal",
+    "name": "Bhakra Nangal Dam",
+    "river": "Sutlej",
+    "state": "Himachal Pradesh / Punjab border",
+    "district": "Bilaspur / Rupnagar",
+    "coordinates": [
+      76.43,
+      31.41
+    ],
+    "type": "Concrete Gravity Dam",
+    "heightM": 226,
+    "purpose": "Multipurpose (Irrigation, Hydropower, Flood Control)",
+    "installedCapacityMW": 1325,
+    "reservoirName": "Gobind Sagar (named after 10th Sikh Guru Gobind Singh)",
+    "examFacts": [
+      "Second tallest dam in India (226 m) after Tehri Dam (260.5 m).",
+      "Jawaharlal Nehru famously described Bhakra Dam as the 'Temple of Resurgent India' during its dedication in 1963.",
+      "Nangal Dam is a barrage located 13 km downstream of Bhakra Dam to divert water into the Nangal Hydel Channel and Bhakra Main Line canal.",
+      "Irrigates over 10 million acres across Punjab, Haryana, and Rajasthan, forming the bedrock of the Green Revolution.",
+      "Operated by the Bhakra Beas Management Board (BBMB)."
+    ],
+    "px": 367.6,
+    "py": 319.8
+  },
+  {
+    "id": "tehri_dam",
+    "name": "Tehri Dam",
+    "river": "Bhagirathi",
+    "state": "Uttarakhand",
+    "district": "Tehri Garhwal",
+    "coordinates": [
+      78.48,
+      30.38
+    ],
+    "type": "Rock and Earth-fill Embankment Dam",
+    "heightM": 260.5,
+    "purpose": "Multipurpose (Hydropower, Drinking Water, Irrigation)",
+    "installedCapacityMW": 2400,
+    "reservoirName": "Swami Ram Tirtha Sagar",
+    "examFacts": [
+      "Tallest dam in India and the 12th tallest dam in the world, rising 260.5 meters high.",
+      "Features an underground powerhouse and a pumped-storage plant (PSP) with an ultimate installed capacity of 2,400 MW.",
+      "Subject of the famous Anti-Tehri Dam Movement led by environmentalist Sunderlal Bahuguna concerning seismic hazards (situated in Central Himalayan Seismic Gap Zone V).",
+      "Provides vital municipal drinking water to New Delhi (~300 cusecs) and urban centres of Uttar Pradesh.",
+      "Koteshwar Dam is the re-regulating dam built 22 km downstream on the Bhagirathi."
+    ],
+    "px": 412.3,
+    "py": 346.0
+  },
+  {
+    "id": "hirakud_dam",
+    "name": "Hirakud Dam",
+    "river": "Mahanadi",
+    "state": "Odisha",
+    "district": "Sambalpur",
+    "coordinates": [
+      83.87,
+      21.52
+    ],
+    "type": "Composite Earth, Concrete and Masonry Dam",
+    "heightM": 60.96,
+    "purpose": "Flood control, Irrigation, Hydropower",
+    "installedCapacityMW": 347.5,
+    "reservoirName": "Hirakud Reservoir (Ramsar Wetland Site)",
+    "examFacts": [
+      "One of the longest earthen dams in the world: main section is 4.8 km long, flanked by earthen dykes giving a total length of 25.8 km.",
+      "Inaugurated by Prime Minister Jawaharlal Nehru in January 1957 as one of the first major river valley projects post-independence.",
+      "Substantially tamed the recurrent catastrophic monsoon floods of the Mahanadi delta in coastal Odisha.",
+      "Hirakud Reservoir was designated as a Ramsar Wetland of International Importance in 2021.",
+      "Features two observation towers: Gandhi Minar at the southern end and Nehru Minar at the northern end."
+    ],
+    "px": 529.9,
+    "py": 561.3
+  },
+  {
+    "id": "sardar_sarovar",
+    "name": "Sardar Sarovar Dam",
+    "river": "Narmada",
+    "state": "Gujarat",
+    "district": "Narmada (Kevadia)",
+    "coordinates": [
+      73.75,
+      21.83
+    ],
+    "type": "Concrete Gravity Dam",
+    "heightM": 163,
+    "purpose": "Multipurpose (Irrigation, Drinking Water, Hydropower)",
+    "installedCapacityMW": 1450,
+    "reservoirName": "Sardar Sarovar",
+    "examFacts": [
+      "Centerpiece of the 30-dam Narmada Valley Project, distributing water across Gujarat, Rajasthan, and Madhya Pradesh.",
+      "Narmada Main Canal taking off from the dam is the world's largest irrigation canal by capacity (40,000 cusecs), extending 458 km to the Rajasthan border.",
+      "Center of the Narmada Bachao Andolan (NBA) led by Medha Patkar and Baba Amte over rehabilitation and environmental impacts.",
+      "Statue of Unity, the world's tallest statue (182 m), stands on Sadhu Bet island facing the dam.",
+      "Power generated is shared among Madhya Pradesh (57%), Maharashtra (27%), and Gujarat (16%)."
+    ],
+    "px": 309.1,
+    "py": 554.0
+  },
+  {
+    "id": "nagarjuna_sagar",
+    "name": "Nagarjuna Sagar Dam",
+    "river": "Krishna",
+    "state": "Telangana / Andhra Pradesh border",
+    "district": "Nalgonda (TG) / Palnadu (AP)",
+    "coordinates": [
+      79.31,
+      16.57
+    ],
+    "type": "Masonry Gravity Dam",
+    "heightM": 124,
+    "purpose": "Irrigation and Hydropower",
+    "installedCapacityMW": 816,
+    "reservoirName": "Nagarjuna Sagar",
+    "examFacts": [
+      "One of the earliest and largest masonry dams built in the world, completed in 1967.",
+      "Named after the 2nd-century CE Buddhist philosopher Acharya Nagarjuna who founded Madhyamaka philosophy.",
+      "Nagarjunakonda, an ancient Buddhist settlement in the reservoir basin, was excavated and preserved on an island museum within the reservoir.",
+      "Left canal is named Lal Bahadur Shastri Canal (Telangana) and Right canal is named Jawahar Canal (Andhra Pradesh).",
+      "Forms the northern boundary of the Nagarjunsagar-Srisailam Tiger Reserve, India's largest tiger reserve."
+    ],
+    "px": 430.4,
+    "py": 675.6
+  },
+  {
+    "id": "idukki_dam",
+    "name": "Idukki Dam",
+    "river": "Periyar",
+    "state": "Kerala",
+    "district": "Idukki",
+    "coordinates": [
+      76.97,
+      9.85
+    ],
+    "type": "Double-curvature Parabolic Thin Concrete Arch Dam",
+    "heightM": 168.91,
+    "purpose": "Hydroelectric Power Generation",
+    "installedCapacityMW": 780,
+    "reservoirName": "Idukki Reservoir",
+    "examFacts": [
+      "One of the highest arch dams in Asia and the only double-curvature arch dam in India, standing 168.9 meters high between Kuravan and Kurathi hills.",
+      "Constructed with financial and technical assistance from the Government of Canada (SNC-Lavalin).",
+      "Operated with two associated dams: Cheruthoni (concrete gravity dam) and Kulamavu (masonry gravity dam), which together impound the reservoir.",
+      "Moolamattom Underground Powerhouse is the largest underground hydroelectric power station in Kerala.",
+      "Idukki Wildlife Sanctuary surrounds the reservoir, protecting Asian elephants, sambar, and gaur."
+    ],
+    "px": 379.4,
+    "py": 826.3
+  }
+]

@@ -1,0 +1,276 @@
+[
+  {
+    "id": "himalayas",
+    "name": "The Great Himalayas (Himadri)",
+    "category": "Mountain Range",
+    "elevationM": 8848,
+    "statesCovered": [
+      "Jammu and Kashmir",
+      "Ladakh",
+      "Himachal Pradesh",
+      "Uttarakhand",
+      "Sikkim",
+      "Arunachal Pradesh"
+    ],
+    "coordinates": [
+      78.5,
+      31.0
+    ],
+    "description": "Young fold mountains formed by the ongoing collision between the Indian and Eurasian tectonic plates. Spans ~2,400 km in an arcuate shape.",
+    "highestPeakInfo": "Mount Everest (8,848.86 m - Nepal/Tibet border). Highest peak in India: Kangchenjunga (8,586 m, Sikkim). Highest peak entirely in India: Nanda Devi (7,816 m, Uttarakhand).",
+    "examFacts": [
+      "Classified into three longitudinal parallel ranges: Greater Himalayas (Himadri, average elevation 6,000 m), Lesser Himalayas (Himachal / Middle Himalayas, 3,700-4,500 m), and Outer Himalayas (Shivaliks, 900-1,100 m).",
+      "Formed during the Tertiary period by the collision of the northward-drifting Indian Plate with the Eurasian Plate.",
+      "Source of major perennial antecedent river systems including the Indus, Ganga, and Brahmaputra.",
+      "Contains the world's highest non-polar glaciers including Siachen, Gangotri, and Baltoro.",
+      "Acts as an impenetrable climatic barrier blocking freezing Central Asian winds from entering India in winter and forcing the South-West Monsoon to shed precipitation over the subcontinent."
+    ],
+    "px": 412.7,
+    "py": 330.3
+  },
+  {
+    "id": "western_ghats",
+    "name": "Western Ghats (Sahyadri)",
+    "category": "Ghats",
+    "elevationM": 2695,
+    "statesCovered": [
+      "Gujarat",
+      "Maharashtra",
+      "Goa",
+      "Karnataka",
+      "Kerala",
+      "Tamil Nadu"
+    ],
+    "coordinates": [
+      74.5,
+      14.5
+    ],
+    "description": "A continuous escarpment spanning ~1,600 km parallel to the Arabian Sea coast, extending from Tapi valley to Kanyakumari. A global biodiversity hotspot.",
+    "highestPeakInfo": "Anamudi (2,695 m, Eravikulam National Park, Kerala) - highest peak in Peninsular India.",
+    "examFacts": [
+      "Recognized by UNESCO as a serial World Heritage Site (2012) and one of the world's eight 'hottest hotspots' of biological diversity.",
+      "Not true fold mountains but faulted escarpments of the Deccan plateau trap formed during the break-up of Gondwanaland.",
+      "Origin of major peninsular east-flowing rivers (Godavari, Krishna, Kaveri) and west-flowing perennial coastal rivers (Mandovi, Zuari, Sharavathi, Periyar).",
+      "Divided by major natural passes: Thal Ghat (Mumbai-Nashik), Bhor Ghat (Mumbai-Pune), and Palakkad Gap (between Nilgiris and Anaimalai, connecting Kerala to Tamil Nadu).",
+      "Western slopes receive heavy orographic rainfall exceeding 3,000\u20135,000 mm, leaving the interior Deccan in a pronounced rain shadow."
+    ],
+    "px": 325.5,
+    "py": 722.4
+  },
+  {
+    "id": "eastern_ghats",
+    "name": "Eastern Ghats (Purva Ghat)",
+    "category": "Ghats",
+    "elevationM": 1690,
+    "statesCovered": [
+      "Odisha",
+      "Andhra Pradesh",
+      "Telangana",
+      "Tamil Nadu",
+      "Karnataka"
+    ],
+    "coordinates": [
+      82.5,
+      18.2
+    ],
+    "description": "A discontinuous and dissected chain of relict mountains running parallel to the Bay of Bengal, heavily eroded by major eastward peninsular rivers.",
+    "highestPeakInfo": "Arma Konda / Jindhagada Peak (1,690 m, Araku Valley, Visakhapatnam, Andhra Pradesh) and Deomali (1,672 m, Odisha).",
+    "examFacts": [
+      "Older geologically than the Western Ghats, representing deeply eroded remnants of ancient fold belts.",
+      "Dissected into distinct regional hill tracts: Mahendragiri in Odisha, Nallamala, Erramala, and Seshachalam in Andhra Pradesh, and Javadi, Shevaroy, and Kalrayan in Tamil Nadu.",
+      "Meets the Western Ghats at the Nilgiri Hills in Tamil Nadu, forming a complex ecological junction.",
+      "Home to extensive bauxite plateaus (Panchpatmali, Niyamgiri) and red sanders (Pterocarpus santalinus) in the Seshachalam Biosphere Reserve.",
+      "Receives substantial precipitation during the North-East Retreating Monsoon (October\u2013December)."
+    ],
+    "px": 500.0,
+    "py": 638.3
+  },
+  {
+    "id": "aravalli_range",
+    "name": "Aravalli Range",
+    "category": "Mountain Range",
+    "elevationM": 1722,
+    "statesCovered": [
+      "Gujarat",
+      "Rajasthan",
+      "Haryana",
+      "Delhi"
+    ],
+    "coordinates": [
+      73.5,
+      25.0
+    ],
+    "description": "One of the oldest geological fold mountain systems in the world, dating back to the Proterozoic eon. Runs ~692 km southwest-to-northeast from Himmatnagar (Gujarat) to Delhi.",
+    "highestPeakInfo": "Guru Shikhar (1,722 m, Mount Abu, Sirohi district, Rajasthan).",
+    "examFacts": [
+      "Recognized as a classic example of relict/residual fold mountains worn down by hundreds of millions of years of subaerial weathering.",
+      "Acts as a vital water divide between the Arabian Sea drainage (Luni, Sabarmati, Banas) and the Bay of Bengal drainage (Chambal, Yamuna).",
+      "Crucial ecological barrier preventing eastward expansion and desertification of the Thar Desert into the fertile Indo-Gangetic Plains.",
+      "The northernmost tip forms the Delhi Ridge, which terminates near the Yamuna River in New Delhi.",
+      "Hosts Mount Abu, Rajasthan's only hill station, featuring Nakki Lake and the exquisite marble Dilwara Jain Temples."
+    ],
+    "px": 303.7,
+    "py": 478.6
+  },
+  {
+    "id": "vindhya_range",
+    "name": "Vindhya Range",
+    "category": "Mountain Range",
+    "elevationM": 752,
+    "statesCovered": [
+      "Gujarat",
+      "Madhya Pradesh",
+      "Uttar Pradesh",
+      "Bihar"
+    ],
+    "coordinates": [
+      77.5,
+      23.5
+    ],
+    "description": "A broken chain of relict sandstone and limestone scarp hills running west to east across Central India, historically demarcating North India from the Deccan.",
+    "highestPeakInfo": "Sadbhawna Shikhar / Kalumar Peak (752 m, Damoh district, Madhya Pradesh).",
+    "examFacts": [
+      "Forms the northern boundary of the Narmada Rift Valley, composed primarily of Vindhyan sandstones and shales.",
+      "Historically considered the traditional dividing line between Aryavarta (North India) and Dakshinapatha (South India).",
+      "Extends eastward as the Bharner and Kaimur ranges into eastern Madhya Pradesh, southern Uttar Pradesh, and the Rohtas plateau in Bihar.",
+      "Renowned for sedimentary mineral resources including building stone, limestone for cement, and the diamond-bearing kimberlite pipes of Panna.",
+      "Birthplace of several northward tributaries of the Yamuna and Ganga including the Chambal, Betwa, and Ken."
+    ],
+    "px": 390.9,
+    "py": 514.5
+  },
+  {
+    "id": "satpura_range",
+    "name": "Satpura Range",
+    "category": "Mountain Range",
+    "elevationM": 1350,
+    "statesCovered": [
+      "Gujarat",
+      "Maharashtra",
+      "Madhya Pradesh",
+      "Chhattisgarh"
+    ],
+    "coordinates": [
+      78.4,
+      22.1
+    ],
+    "description": "A series of seven folded and faulted ranges (Satpura = Seven Folds) running parallel between the Narmada and Tapi rift valleys.",
+    "highestPeakInfo": "Dhupgarh (1,350 m, Mahadeo Hills near Pachmarhi, Hoshangabad, Madhya Pradesh).",
+    "examFacts": [
+      "True horst mountain (block mountain) bounded by grabens: the Narmada rift valley to the north and the Tapi rift valley to the south.",
+      "Divisible into three sections: Rajpipla Hills in the west, Mahadeo Hills in the central part, and Maikal Hills in the east.",
+      "Amarkantak Plateau in the Maikal Range is a radial drainage hub where the Narmada, Son, and Johila rivers originate within close proximity.",
+      "Pachmarhi in the Mahadeo Hills is Madhya Pradesh's sole hill station and was designated a UNESCO Biosphere Reserve in 2009.",
+      "Hosts premier Project Tiger reserves including Kanha, Satpura, Pench, and Melghat."
+    ],
+    "px": 410.6,
+    "py": 547.6
+  },
+  {
+    "id": "nilgiri_hills",
+    "name": "Nilgiri Hills ('Blue Mountains')",
+    "category": "Mountain Range",
+    "elevationM": 2637,
+    "statesCovered": [
+      "Tamil Nadu",
+      "Kerala",
+      "Karnataka"
+    ],
+    "coordinates": [
+      76.7,
+      11.4
+    ],
+    "description": "A mountainous massif at the junction of the Western Ghats and Eastern Ghats, famous for tea plantations, shola-grassland ecosystems, and indigenous tribes.",
+    "highestPeakInfo": "Doddabetta (2,637 m, Nilgiris district, Tamil Nadu) - second highest peak in Peninsular India.",
+    "examFacts": [
+      "Nilgiri Biosphere Reserve was the very first Biosphere Reserve established in India under UNESCO's MAB programme (1986).",
+      "Home to endemic Shola forests (stunted montane evergreen forests nestled in undulating high-altitude rolling grasslands).",
+      "Traditional homeland of the Toda, Kota, Kurumba, Irula, and Badaga tribal communities.",
+      "Connected to the Mettupalayam plains via the Nilgiri Mountain Railway (UNESCO World Heritage Site), which utilizes the unique Abt rack-and-pinion system.",
+      "Habitat of the endangered Nilgiri Tahr (Nilgiritragus hylocrius) and the rare mass-flowering Neelakurinji (Strobilanthes kunthiana, blooming once every 12 years)."
+    ],
+    "px": 373.5,
+    "py": 791.8
+  },
+  {
+    "id": "thar_desert",
+    "name": "Thar Desert (The Great Indian Desert)",
+    "category": "Desert",
+    "elevationM": 150,
+    "statesCovered": [
+      "Rajasthan",
+      "Gujarat",
+      "Punjab",
+      "Haryana"
+    ],
+    "coordinates": [
+      71.5,
+      27.0
+    ],
+    "description": "The world's ninth largest subtropical desert, spanning ~200,000 sq km. Characterized by undulating sand dunes (barchans, longitudinal dunes) and extreme diurnal temperatures.",
+    "examFacts": [
+      "Most densely populated desert in the world, with an average human population density of ~83 persons per sq km compared to 5\u201310 in typical global deserts.",
+      "Transformed agriculturally by the Indira Gandhi Canal (Rajasthan Feeder), which brings water over 650 km from Harike Barrage on the Beas-Sutlej confluence to western Rajasthan.",
+      "Contains the Desert National Park (Jaisalmer-Barmer), the prime sanctuary for the critically endangered Great Indian Bustard (Godawan).",
+      "Bhadla Solar Park in the Phalodi/Jodhpur region is one of the world's largest operational solar power installations (~2,245 MW).",
+      "Contains ancient fossil evidence such as the Akal Wood Fossil Park (180-million-year-old Jurassic wood petrifications near Jaisalmer)."
+    ],
+    "px": 260.0,
+    "py": 430.1
+  },
+  {
+    "id": "deccan_plateau",
+    "name": "Deccan Plateau",
+    "category": "Plateau",
+    "elevationM": 600,
+    "statesCovered": [
+      "Maharashtra",
+      "Karnataka",
+      "Telangana",
+      "Andhra Pradesh",
+      "Tamil Nadu",
+      "Kerala"
+    ],
+    "coordinates": [
+      76.0,
+      16.5
+    ],
+    "description": "Vast triangular volcanic plateau sloping gently eastwards, bounded by the Western Ghats to the west, Eastern Ghats to the east, and Satpura-Vindhya to the north.",
+    "examFacts": [
+      "Formed by massive Cretaceous-Tertiary fissure eruptions of basaltic lava (~66 million years ago), creating step-like geological formations known as 'Deccan Traps'.",
+      "Deep weathering of basaltic rocks created rich Black Cotton Soils (Regur), characterized by high clay content, self-ploughing moisture retention, and suitability for cotton and sugarcane.",
+      "Drained by major eastward rivers: Godavari, Krishna, and Kaveri, creating deeply incised river valleys and fertile deltaic floodplains along the Bay of Bengal coast.",
+      "Mineral-rich plateau hosting gold (Hutti), iron ore (Ballari, Sandur), manganese, and limestone.",
+      "Historically the core territory of major empires: Satavahanas, Chalukyas, Rashtrakutas, Bahmanis, Vijayanagara, and Marathas."
+    ],
+    "px": 358.2,
+    "py": 677.2
+  },
+  {
+    "id": "chota_nagpur_plateau",
+    "name": "Chota Nagpur Plateau",
+    "category": "Plateau",
+    "elevationM": 650,
+    "statesCovered": [
+      "Jharkhand",
+      "Odisha",
+      "West Bengal",
+      "Chhattisgarh",
+      "Bihar"
+    ],
+    "coordinates": [
+      85.5,
+      23.5
+    ],
+    "description": "Mineral heartland of India ('Ruhr of India'), composed of ancient Archean granites and gneisses with Gondwana coal-bearing sedimentary formations.",
+    "examFacts": [
+      "Contains over 40% of India's mineral reserves, including prime coking coal (Jharia, Bokaro), hematite iron ore (Noamundi, Singhbhum), uranium (Jaduguda), copper (Ghatsila), and mica (Koderma).",
+      "Drained radically by the Damodar, Subarnarekha, North Koel, South Koel, and Barakar rivers.",
+      "Damodar Valley Corporation (DVC), modeled on the US Tennessee Valley Authority (TVA) in 1948, was independent India's first multipurpose river valley project.",
+      "Composed of stepped erosion surfaces known as Patlands (e.g., Netarhat plateau, elevated at ~1,000 m).",
+      "Highest point is Parasnath Hill (Shikharji, 1,365 m), the supreme Jain pilgrimage shrine where 20 Tirthankaras attained Nirvana."
+    ],
+    "px": 565.4,
+    "py": 514.5
+  }
+]
